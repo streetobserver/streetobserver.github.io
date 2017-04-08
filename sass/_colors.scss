@@ -1,0 +1,26 @@
+$dark_green: #248d6c;
+$light_gray: #f4f4f4;
+$dark_blue: #24678d;
+$dark_red: rgb(168, 46, 46);
+
+.gray_background {
+  background-color: $light_gray;
+  background-image: none;
+}
+
+.green_background {
+  background-color: $dark_green;
+  background-image: none;
+}
+
+.green_font{
+  color: $dark_green;
+}
+
+.blue_font {
+  color: $dark_blue;
+}
+
+.white_font {
+  color: #fff;
+}
