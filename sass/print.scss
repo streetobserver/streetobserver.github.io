@@ -7,4 +7,12 @@ body {
   height: 100%;
 }
 
-@import "aboutUs";
+a {
+  &:visited,
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+@import "bootstrap";
+@import "index";

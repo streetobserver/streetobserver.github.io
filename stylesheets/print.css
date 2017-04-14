@@ -8,6 +8,17 @@ body {
   height: 100%;
 }
 
+/* line 11, ../sass/print.scss */
+a:visited, a:hover {
+  text-decoration: none;
+}
+
+/* line 2, ../sass/bootstrap.scss */
+.nav-item {
+  margin: auto;
+  padding: 20px;
+}
+
 /* line 6, ../sass/_colors.scss */
 .gray_background {
   background-color: #f4f4f4;
@@ -35,14 +46,14 @@ body {
   color: #fff;
 }
 
-/* line 4, ../sass/aboutUs.scss */
+/* line 4, ../sass/index.scss */
 .carousel-indicators li {
   max-width: 3px;
   height: 5px;
   border-radius: 50px;
 }
 
-/* line 11, ../sass/aboutUs.scss */
+/* line 11, ../sass/index.scss */
 .s1,
 .s2,
 .s3,
@@ -53,7 +64,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* line 21, ../sass/aboutUs.scss */
+/* line 21, ../sass/index.scss */
 .s1 > img,
 .s2 > img,
 .s3 > img,
@@ -62,78 +73,78 @@ body {
   opacity: 0;
 }
 
-/* line 26, ../sass/aboutUs.scss */
+/* line 26, ../sass/index.scss */
 .s1 {
   background-image: url('../images/s1.jpg?1489242250');
 }
 
-/* line 30, ../sass/aboutUs.scss */
+/* line 30, ../sass/index.scss */
 .s2 {
   background-image: url('../images/s2.jpg?1489242260');
 }
 
-/* line 34, ../sass/aboutUs.scss */
+/* line 34, ../sass/index.scss */
 .s3 {
   background-image: url('../images/s3.jpg?1489242356');
 }
 
-/* line 38, ../sass/aboutUs.scss */
+/* line 38, ../sass/index.scss */
 .s4 {
   background-image: url('../images/s4.jpg?1489242058');
 }
 
-/* line 42, ../sass/aboutUs.scss */
+/* line 42, ../sass/index.scss */
 .s5 {
   background-image: url('../images/s5.jpg?1489242138');
 }
 
-/* line 46, ../sass/aboutUs.scss */
+/* line 46, ../sass/index.scss */
 .card {
   margin: 5vh 0;
   border: 0;
 }
-/* line 50, ../sass/aboutUs.scss */
+/* line 50, ../sass/index.scss */
 .card .card-block {
   text-align: center;
   padding: 0;
 }
-/* line 54, ../sass/aboutUs.scss */
+/* line 54, ../sass/index.scss */
 .card .card-block h5 {
   margin: 0.25rem 0;
 }
-/* line 58, ../sass/aboutUs.scss */
+/* line 58, ../sass/index.scss */
 .card .card-block img {
   width: 245px;
 }
-/* line 62, ../sass/aboutUs.scss */
+/* line 62, ../sass/index.scss */
 .card .card-block h6 {
   margin-top: 1rem;
   margin-bottom: 2rem;
   color: #a82e2e;
 }
-/* line 68, ../sass/aboutUs.scss */
+/* line 68, ../sass/index.scss */
 .card .card-block p {
   padding: 0 15px;
   text-align: left;
 }
 
-/* line 75, ../sass/aboutUs.scss */
+/* line 75, ../sass/index.scss */
 .footer {
   height: 100%;
 }
-/* line 77, ../sass/aboutUs.scss */
+/* line 77, ../sass/index.scss */
 .footer .group_summary {
   min-height: 50vh;
 }
-/* line 79, ../sass/aboutUs.scss */
+/* line 79, ../sass/index.scss */
 .footer .group_summary .h4 {
   color: #248d6c;
 }
-/* line 84, ../sass/aboutUs.scss */
+/* line 84, ../sass/index.scss */
 .footer .join_us {
   min-height: 20vh;
 }
-/* line 87, ../sass/aboutUs.scss */
+/* line 87, ../sass/index.scss */
 .footer .join_us .btn-danger:hover {
   background-color: #a82e2e;
 }
