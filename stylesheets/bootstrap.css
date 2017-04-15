@@ -1,4 +1,11 @@
 /* line 2, ../sass/bootstrap.scss */
+.carousel-indicators li {
+  max-width: 3px;
+  height: 5px;
+  border-radius: 50px;
+}
+
+/* line 9, ../sass/bootstrap.scss */
 .nav-item {
   margin: auto;
   padding: 20px;

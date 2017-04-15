@@ -1,0 +1,79 @@
+/* line 6, ../sass/_colors.scss */
+.gray_background {
+  background-color: #f4f4f4;
+  background-image: none;
+}
+
+/* line 11, ../sass/_colors.scss */
+.green_background {
+  background-color: #248d6c;
+  background-image: none;
+}
+
+/* line 16, ../sass/_colors.scss */
+.green_font {
+  color: #248d6c;
+}
+
+/* line 20, ../sass/_colors.scss */
+.blue_font {
+  color: #24678d;
+}
+
+/* line 24, ../sass/_colors.scss */
+.white_font {
+  color: #fff;
+}
+
+/* line 3, ../sass/beefSoup.scss */
+.banner_img {
+  background-image: url('../images/pBeefSoup/banner.jpg?1492221272');
+  background-position: left;
+}
+
+/* line 8, ../sass/beefSoup.scss */
+.banner_text {
+  font-size: large;
+  font-weight: bold;
+}
+
+/* line 14, ../sass/beefSoup.scss */
+.active_info h5 {
+  border-bottom: 1px gray solid;
+  padding-bottom: 2rem;
+}
+/* line 19, ../sass/beefSoup.scss */
+.active_info div:nth-child(2) {
+  margin-top: 2rem;
+}
+/* line 23, ../sass/beefSoup.scss */
+.active_info div {
+  position: relative;
+  padding-left: 20px;
+}
+/* line 28, ../sass/beefSoup.scss */
+.active_info div::after {
+  content: '';
+  position: absolute;
+  left: 3px;
+  top: 4px;
+  border-left: 5px black solid;
+  height: 1rem;
+}
+
+/* line 38, ../sass/beefSoup.scss */
+.hidden-sm-down > .banner_img {
+  height: 230px;
+  background-image: url('../images/pBeefSoup/banner2.jpg?1492221272');
+  background-position: center;
+}
+
+/* line 46, ../sass/beefSoup.scss */
+.card h5, .gray_background h5 {
+  color: #a82e2e;
+}
+/* line 51, ../sass/beefSoup.scss */
+.card .card-text small, .gray_background .card-text small {
+  text-align: right;
+  display: block;
+}

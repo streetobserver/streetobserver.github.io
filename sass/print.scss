@@ -3,8 +3,18 @@
  * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
 body {
   font-family: sans-serif;
-  letter-spacing: 0.25rem;
   height: 100%;
+  p {
+    letter-spacing: 0.25rem;
+    line-height: 1.75rem;
+  }
+
+  .banner_img {
+    // width: 1115px;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
 
 a {
@@ -13,6 +23,3 @@ a {
     text-decoration: none;
   }
 }
-
-
-@import "index";

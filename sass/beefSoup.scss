@@ -1,0 +1,56 @@
+@import "colors";
+
+.banner_img {
+  background-image: image-url('pBeefSoup/banner.jpg');
+  background-position: left;
+}
+
+.banner_text {
+  font-size: large;
+  font-weight: bold;
+}
+
+.active_info {
+  h5 {
+    border-bottom: 1px gray solid;
+    padding-bottom: 2rem;
+  }
+
+  div:nth-child(2) {
+    margin-top: 2rem;
+  }
+
+  div {
+    position: relative;
+    padding-left: 20px;
+  }
+
+  div::after {
+    content: '';
+    position: absolute;
+    left: 3px;
+    top: 4px;
+    border-left: 5px black solid;
+    height: 1rem;
+  }
+}
+
+.hidden-sm-down>.banner_img {
+  // width: 100vw;
+  height: 230px;
+  background-image: image-url('pBeefSoup/banner2.jpg');
+  background-position: center;
+}
+
+.card, .gray_background {
+  h5 {
+    color: $dark_red;
+  }
+
+  .card-text {
+    small {
+      text-align: right;
+      display: block;
+    }
+  }
+}

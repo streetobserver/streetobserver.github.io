@@ -1,11 +1,8 @@
 @import "colors";
 
-.carousel-indicators {
-    li {
-        max-width: 3px;
-        height: 5px;
-        border-radius: 50px;
-    }
+.banner_img {
+  background-image: image-url('index/banner.jpg');
+  background-position: center;
 }
 
 .s1,
@@ -24,23 +21,23 @@
 }
 
 .s1 {
-    background-image: image-url("s1.jpg");
+    background-image: image-url("index/s1.jpg");
 }
 
 .s2 {
-    background-image: image-url("s2.jpg");
+    background-image: image-url("index/s2.jpg");
 }
 
 .s3 {
-    background-image: image-url("s3.jpg");
+    background-image: image-url("index/s3.jpg");
 }
 
 .s4 {
-    background-image: image-url("s4.jpg");
+    background-image: image-url("index/s4.jpg");
 }
 
 .s5 {
-    background-image: image-url("s5.jpg");
+    background-image: image-url("index/s5.jpg");
 }
 
 .card {
@@ -72,21 +69,20 @@
     }
 }
 
-.footer {
-    height: 100%;
-    .group_summary {
-        min-height: 50vh;
-        .h4 {
-            color: #248d6c;
-        }
-    }
+.group_summary {
+  min-height: 50vh;
+  h1 {
+    font-size: 1.5rem;
+    color: #248d6c;
+  }
+}
 
-    .join_us {
-        min-height: 20vh;
-        .btn-danger {
-            &:hover {
-                background-color: $dark_red;
-            }
-        }
+.join_us {
+  color: #fff;
+  min-height: 20vh;
+  .btn-danger {
+    &:hover {
+      background-color: $dark_red;
     }
+  }
 }
