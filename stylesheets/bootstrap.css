@@ -6,7 +6,11 @@
 }
 
 /* line 9, ../sass/bootstrap.scss */
-.nav-item {
-  margin: auto;
-  padding: 20px;
+.navbar-nav {
+  padding: 20px 0;
+}
+/* line 11, ../sass/bootstrap.scss */
+.navbar-nav .nav-item {
+  margin: auto 0;
+  padding: 0 20px;
 }
