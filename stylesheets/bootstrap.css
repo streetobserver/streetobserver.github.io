@@ -19,3 +19,8 @@
 .dropdown-menu {
   padding-left: 10px;
 }
+
+/* line 22, ../sass/bootstrap.scss */
+.card + .card {
+  margin: 10px;
+}

@@ -17,3 +17,9 @@
 .dropdown-menu {
   padding-left: 10px;
 }
+
+.card {
+  +.card {
+    margin: 10px;
+  }
+}
