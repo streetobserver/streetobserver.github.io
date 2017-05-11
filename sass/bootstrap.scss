@@ -14,9 +14,34 @@
   }
 }
 
-.dropdown-menu {
-  padding-left: 10px;
+.cover {
+  position: absolute;
+  overflow: hidden;
+  height: 286px;
+  width: 160px;
+  > .dropdown-menu {
+    position: absolute;
+    top: -101%;
+    display: block;
+    transition: top 0.3s;
+  }
 }
+
+.show {
+  .dropdown-menu {
+    position: absolute;
+    top: 0%;
+    display: block;
+  }
+}
+
+
+//
+// .dropdown-menu {
+//   display: block;
+//   position: absolute;
+//   top: -100%;
+// }
 
 .card {
   +.card {

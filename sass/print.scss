@@ -18,7 +18,10 @@ body {
 }
 
 a {
+  text-decoration: none;
+  &:active,
   &:visited,
+  &:focus,
   &:hover {
     text-decoration: none;
   }

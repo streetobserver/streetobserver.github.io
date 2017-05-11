@@ -18,7 +18,11 @@ body .banner_img {
   background-size: cover;
 }
 
-/* line 21, ../sass/print.scss */
-a:visited, a:hover {
+/* line 20, ../sass/print.scss */
+a {
+  text-decoration: none;
+}
+/* line 22, ../sass/print.scss */
+a:active, a:visited, a:focus, a:hover {
   text-decoration: none;
 }

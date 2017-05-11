@@ -16,11 +16,28 @@
 }
 
 /* line 17, ../sass/bootstrap.scss */
-.dropdown-menu {
-  padding-left: 10px;
+.cover {
+  position: absolute;
+  overflow: hidden;
+  height: 286px;
+  width: 160px;
+}
+/* line 22, ../sass/bootstrap.scss */
+.cover > .dropdown-menu {
+  position: absolute;
+  top: -101%;
+  display: block;
+  transition: top 0.3s;
 }
 
-/* line 22, ../sass/bootstrap.scss */
+/* line 31, ../sass/bootstrap.scss */
+.show .dropdown-menu {
+  position: absolute;
+  top: 0%;
+  display: block;
+}
+
+/* line 47, ../sass/bootstrap.scss */
 .card + .card {
   margin: 10px;
 }
