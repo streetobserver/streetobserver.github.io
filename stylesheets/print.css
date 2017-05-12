@@ -5,24 +5,26 @@
 body {
   font-family: sans-serif;
   height: 100vh;
+  overflow-y: scroll;
+  background-color: #FAFAFA;
 }
-/* line 7, ../sass/print.scss */
+/* line 9, ../sass/print.scss */
 body p {
   letter-spacing: 0.25rem;
   line-height: 1.75rem;
 }
-/* line 12, ../sass/print.scss */
+/* line 14, ../sass/print.scss */
 body .banner_img {
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-/* line 20, ../sass/print.scss */
+/* line 22, ../sass/print.scss */
 a {
   text-decoration: none;
 }
-/* line 22, ../sass/print.scss */
+/* line 24, ../sass/print.scss */
 a:active, a:visited, a:focus, a:hover {
   text-decoration: none;
 }
