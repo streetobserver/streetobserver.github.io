@@ -1,0 +1,185 @@
+@charset "UTF-8";
+/* line 2, ../sass/tainanWall.scss */
+h5 {
+  padding-top: 1.5rem;
+}
+
+/* line 6, ../sass/tainanWall.scss */
+h6 {
+  position: relative;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  font-weight: bold;
+}
+
+/* line 13, ../sass/tainanWall.scss */
+h6::after {
+  content: '‧';
+  position: absolute;
+  left: 0;
+  font-size: 1rem;
+  line-height: 1rem;
+  font-weight: bold;
+}
+
+/* line 22, ../sass/tainanWall.scss */
+.slide {
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 28, ../sass/tainanWall.scss */
+.slide > img {
+  opacity: 0;
+}
+
+/* line 33, ../sass/tainanWall.scss */
+.s1 {
+  background-image: url('../images/tainanWall/s1.jpg?1494657467');
+}
+
+/* line 37, ../sass/tainanWall.scss */
+.s2 {
+  background-image: url('../images/tainanWall/s2.jpg?1494657413');
+}
+
+/* line 41, ../sass/tainanWall.scss */
+.s3 {
+  background-image: url('../images/tainanWall/s3.jpg?1494657462');
+}
+
+/* line 45, ../sass/tainanWall.scss */
+.s4 {
+  background-image: url('../images/tainanWall/s4.jpg?1494657415');
+}
+
+/* line 49, ../sass/tainanWall.scss */
+.s5 {
+  background-image: url('../images/tainanWall/s5.jpg?1494657407');
+}
+
+/* line 53, ../sass/tainanWall.scss */
+.s6 {
+  background-image: url('../images/tainanWall/s6.jpg?1494657435');
+}
+
+/* line 57, ../sass/tainanWall.scss */
+.s7 {
+  background-image: url('../images/tainanWall/s7.jpg?1494657474');
+}
+
+/* line 61, ../sass/tainanWall.scss */
+.s8 {
+  background-image: url('../images/tainanWall/s8.jpg?1494657432');
+}
+
+/* line 65, ../sass/tainanWall.scss */
+.s9 {
+  background-image: url('../images/tainanWall/s9.jpg?1494657418');
+}
+
+/* line 69, ../sass/tainanWall.scss */
+.s10 {
+  background-image: url('../images/tainanWall/s10.jpg?1494657425');
+}
+
+/* line 73, ../sass/tainanWall.scss */
+.s11 {
+  background-image: url('../images/tainanWall/s11.jpg?1494657488');
+}
+
+/* line 77, ../sass/tainanWall.scss */
+.s12 {
+  background-image: url('../images/tainanWall/s12.jpg?1494657476');
+}
+
+/* line 81, ../sass/tainanWall.scss */
+.s13 {
+  background-image: url('../images/tainanWall/s13.jpg?1494657441');
+}
+
+/* line 85, ../sass/tainanWall.scss */
+.s14 {
+  background-image: url('../images/tainanWall/s14.jpg?1494657444');
+}
+
+/* line 89, ../sass/tainanWall.scss */
+.s15 {
+  background-image: url('../images/tainanWall/s15.jpg?1494657446');
+}
+
+/* line 93, ../sass/tainanWall.scss */
+.s16 {
+  background-image: url('../images/tainanWall/s16.jpg');
+}
+
+/* line 97, ../sass/tainanWall.scss */
+.s17 {
+  background-image: url('../images/tainanWall/s17.jpg');
+}
+
+/* line 101, ../sass/tainanWall.scss */
+.s18 {
+  background-image: url('../images/tainanWall/s18.jpg');
+}
+
+/* line 105, ../sass/tainanWall.scss */
+.s19 {
+  background-image: url('../images/tainanWall/s19.jpg');
+}
+
+/* line 109, ../sass/tainanWall.scss */
+.s20 {
+  background-image: url('../images/tainanWall/s20.jpg');
+}
+
+/* line 113, ../sass/tainanWall.scss */
+.s21 {
+  background-image: url('../images/tainanWall/s21.jpg');
+}
+
+/* line 117, ../sass/tainanWall.scss */
+.s22 {
+  background-image: url('../images/tainanWall/s22.jpg');
+}
+
+/* line 121, ../sass/tainanWall.scss */
+.s23 {
+  background-image: url('../images/tainanWall/s23.jpg');
+}
+
+/* line 125, ../sass/tainanWall.scss */
+.s24 {
+  background-image: url('../images/tainanWall/s24.jpg');
+}
+
+/* line 129, ../sass/tainanWall.scss */
+.s25 {
+  background-image: url('../images/tainanWall/s25.jpg');
+}
+
+/* line 133, ../sass/tainanWall.scss */
+.s26 {
+  background-image: url('../images/tainanWall/s26.jpg');
+}
+
+/* line 137, ../sass/tainanWall.scss */
+.s27 {
+  background-image: url('../images/tainanWall/s27.jpg');
+}
+
+/* line 141, ../sass/tainanWall.scss */
+.s28 {
+  background-image: url('../images/tainanWall/s28.jpg');
+}
+
+/* line 145, ../sass/tainanWall.scss */
+.s29 {
+  background-image: url('../images/tainanWall/s29.jpeg');
+}
+
+/* line 149, ../sass/tainanWall.scss */
+.s30 {
+  background-image: url('../images/tainanWall/s30.jpeg');
+}
