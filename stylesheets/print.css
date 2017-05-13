@@ -10,12 +10,11 @@ body {
 }
 /* line 9, ../sass/print.scss */
 body p {
-  letter-spacing: 0.25rem;
   line-height: 1.75rem;
 }
 /* line 14, ../sass/print.scss */
 body .banner_img {
-  height: 100vh;
+  height: 90vh;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -27,4 +26,16 @@ a {
 /* line 24, ../sass/print.scss */
 a:active, a:visited, a:focus, a:hover {
   text-decoration: none;
+}
+
+/* line 32, ../sass/print.scss */
+.slide {
+  height: 88vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 38, ../sass/print.scss */
+.slide > img {
+  opacity: 0;
 }

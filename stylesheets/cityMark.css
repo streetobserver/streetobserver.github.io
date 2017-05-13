@@ -20,163 +20,151 @@ figure .fbTag {
 }
 
 /* line 20, ../sass/cityMark.scss */
-.slide {
-  height: 100vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-/* line 26, ../sass/cityMark.scss */
-.slide > img {
-  opacity: 0;
-}
-
-/* line 31, ../sass/cityMark.scss */
 .s1 {
   background-image: url('../images/cityMark/s1.jpg?1494549721');
 }
 
-/* line 35, ../sass/cityMark.scss */
+/* line 24, ../sass/cityMark.scss */
 .s2 {
   background-image: url('../images/cityMark/s2.jpg?1494549721');
 }
 
-/* line 39, ../sass/cityMark.scss */
+/* line 28, ../sass/cityMark.scss */
 .s3 {
   background-image: url('../images/cityMark/s3.jpg?1494549721');
 }
 
-/* line 43, ../sass/cityMark.scss */
+/* line 32, ../sass/cityMark.scss */
 .s4 {
   background-image: url('../images/cityMark/s4.jpg?1494549721');
 }
 
-/* line 47, ../sass/cityMark.scss */
+/* line 36, ../sass/cityMark.scss */
 .s5 {
   background-image: url('../images/cityMark/s5.jpg?1494549703');
 }
 
-/* line 51, ../sass/cityMark.scss */
+/* line 40, ../sass/cityMark.scss */
 .s6 {
   background-image: url('../images/cityMark/s6.jpg?1494549702');
 }
 
-/* line 55, ../sass/cityMark.scss */
+/* line 44, ../sass/cityMark.scss */
 .s7 {
   background-image: url('../images/cityMark/s7.jpg?1494549705');
 }
 
-/* line 59, ../sass/cityMark.scss */
+/* line 48, ../sass/cityMark.scss */
 .s8 {
   background-image: url('../images/cityMark/s8.jpg?1494549706');
 }
 
-/* line 63, ../sass/cityMark.scss */
+/* line 52, ../sass/cityMark.scss */
 .s9 {
   background-image: url('../images/cityMark/s9.jpg?1494549702');
 }
 
-/* line 67, ../sass/cityMark.scss */
+/* line 56, ../sass/cityMark.scss */
 .s10 {
   background-image: url('../images/cityMark/s10.jpg?1494549702');
 }
 
-/* line 71, ../sass/cityMark.scss */
+/* line 60, ../sass/cityMark.scss */
 .s11 {
   background-image: url('../images/cityMark/s11.jpg?1494549707');
 }
 
-/* line 75, ../sass/cityMark.scss */
+/* line 64, ../sass/cityMark.scss */
 .s12 {
   background-image: url('../images/cityMark/s12.jpg?1494549707');
 }
 
-/* line 79, ../sass/cityMark.scss */
+/* line 68, ../sass/cityMark.scss */
 .s13 {
   background-image: url('../images/cityMark/s13.jpg?1494549706');
 }
 
-/* line 83, ../sass/cityMark.scss */
+/* line 72, ../sass/cityMark.scss */
 .s14 {
   background-image: url('../images/cityMark/s14.jpg?1494549707');
 }
 
-/* line 87, ../sass/cityMark.scss */
+/* line 76, ../sass/cityMark.scss */
 .s15 {
   background-image: url('../images/cityMark/s15.jpg?1494549710');
 }
 
-/* line 91, ../sass/cityMark.scss */
+/* line 80, ../sass/cityMark.scss */
 .s16 {
   background-image: url('../images/cityMark/s16.jpg?1494549714');
 }
 
-/* line 95, ../sass/cityMark.scss */
+/* line 84, ../sass/cityMark.scss */
 .s17 {
   background-image: url('../images/cityMark/s17.jpg?1494549710');
 }
 
-/* line 99, ../sass/cityMark.scss */
+/* line 88, ../sass/cityMark.scss */
 .s18 {
   background-image: url('../images/cityMark/s18.jpg?1494549710');
 }
 
-/* line 103, ../sass/cityMark.scss */
+/* line 92, ../sass/cityMark.scss */
 .s19 {
   background-image: url('../images/cityMark/s19.jpg?1494549710');
 }
 
-/* line 107, ../sass/cityMark.scss */
+/* line 96, ../sass/cityMark.scss */
 .s20 {
   background-image: url('../images/cityMark/s20.jpg?1494549721');
 }
 
-/* line 111, ../sass/cityMark.scss */
+/* line 100, ../sass/cityMark.scss */
 .s21 {
   background-image: url('../images/cityMark/s21.jpg?1494549714');
 }
 
-/* line 115, ../sass/cityMark.scss */
+/* line 104, ../sass/cityMark.scss */
 .s22 {
   background-image: url('../images/cityMark/s22.jpg?1494549714');
 }
 
-/* line 119, ../sass/cityMark.scss */
+/* line 108, ../sass/cityMark.scss */
 .s23 {
   background-image: url('../images/cityMark/s23.jpg?1494549714');
 }
 
-/* line 123, ../sass/cityMark.scss */
+/* line 112, ../sass/cityMark.scss */
 .s24 {
   background-image: url('../images/cityMark/s24.jpg?1494549714');
 }
 
-/* line 127, ../sass/cityMark.scss */
+/* line 116, ../sass/cityMark.scss */
 .s25 {
   background-image: url('../images/cityMark/s25.jpg?1494549723');
 }
 
-/* line 131, ../sass/cityMark.scss */
+/* line 120, ../sass/cityMark.scss */
 .s26 {
   background-image: url('../images/cityMark/s26.jpg?1494549723');
 }
 
-/* line 135, ../sass/cityMark.scss */
+/* line 124, ../sass/cityMark.scss */
 .s27 {
   background-image: url('../images/cityMark/s27.jpg?1494549726');
 }
 
-/* line 139, ../sass/cityMark.scss */
+/* line 128, ../sass/cityMark.scss */
 .s28 {
   background-image: url('../images/cityMark/s28.jpg?1494549725');
 }
 
-/* line 143, ../sass/cityMark.scss */
+/* line 132, ../sass/cityMark.scss */
 .s29 {
   background-image: url('../images/cityMark/s29.jpeg?1494549725');
 }
 
-/* line 147, ../sass/cityMark.scss */
+/* line 136, ../sass/cityMark.scss */
 .s30 {
   background-image: url('../images/cityMark/s30.jpeg?1494549725');
 }

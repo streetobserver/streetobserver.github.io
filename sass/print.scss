@@ -7,13 +7,13 @@ body {
   overflow-y: scroll;
   background-color: #FAFAFA;
   p {
-    letter-spacing: 0.25rem;
+    // letter-spacing: 0.25rem;
     line-height: 1.75rem;
   }
 
   .banner_img {
     // width: 1115px;
-    height: 100vh;
+    height: 90vh;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -27,4 +27,15 @@ a {
   &:hover {
     text-decoration: none;
   }
+}
+
+.slide {
+    height: 88vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    > img {
+        opacity: 0;
+    }
 }

@@ -31,89 +31,77 @@
   background-position: center;
 }
 
-/* line 8, ../sass/index.scss */
-.slide {
-  height: 100vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-/* line 14, ../sass/index.scss */
-.slide > img {
-  opacity: 0;
-}
-
-/* line 19, ../sass/index.scss */
+/* line 9, ../sass/index.scss */
 .s1 {
   background-image: url('../images/index/s1.jpg?1492221886');
 }
 
-/* line 23, ../sass/index.scss */
+/* line 13, ../sass/index.scss */
 .s2 {
   background-image: url('../images/index/s2.jpg?1492221886');
 }
 
-/* line 27, ../sass/index.scss */
+/* line 17, ../sass/index.scss */
 .s3 {
   background-image: url('../images/index/s3.jpg?1492221886');
 }
 
-/* line 31, ../sass/index.scss */
+/* line 21, ../sass/index.scss */
 .s4 {
   background-image: url('../images/index/s4.jpg?1492221886');
 }
 
-/* line 35, ../sass/index.scss */
+/* line 25, ../sass/index.scss */
 .s5 {
   background-image: url('../images/index/s5.jpg?1492221886');
 }
 
-/* line 39, ../sass/index.scss */
+/* line 29, ../sass/index.scss */
 .card {
   margin: 5vh 0;
   border: 0;
 }
-/* line 43, ../sass/index.scss */
+/* line 33, ../sass/index.scss */
 .card .card-block {
   text-align: center;
   padding: 0;
 }
-/* line 47, ../sass/index.scss */
+/* line 37, ../sass/index.scss */
 .card .card-block h5 {
   margin: 0.25rem 0;
 }
-/* line 51, ../sass/index.scss */
+/* line 41, ../sass/index.scss */
 .card .card-block img {
   width: 245px;
 }
-/* line 55, ../sass/index.scss */
+/* line 45, ../sass/index.scss */
 .card .card-block h6 {
   margin-top: 1rem;
   margin-bottom: 2rem;
   color: #a82e2e;
 }
-/* line 61, ../sass/index.scss */
+/* line 51, ../sass/index.scss */
 .card .card-block p {
   padding: 0 15px;
   text-align: left;
 }
 
-/* line 68, ../sass/index.scss */
+/* line 58, ../sass/index.scss */
 .group_summary {
   min-height: 50vh;
 }
-/* line 70, ../sass/index.scss */
+/* line 60, ../sass/index.scss */
 .group_summary h1 {
   font-size: 1.5rem;
   color: #248d6c;
 }
 
-/* line 76, ../sass/index.scss */
+/* line 66, ../sass/index.scss */
 .join_us {
   color: #fff;
   min-height: 20vh;
 }
-/* line 80, ../sass/index.scss */
+/* line 70, ../sass/index.scss */
 .join_us .btn-danger:hover {
   background-color: #a82e2e;
 }

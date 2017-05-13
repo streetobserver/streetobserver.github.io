@@ -17,17 +17,6 @@ figure {
   }
 }
 
-.slide {
-  height: 100vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  > img {
-    opacity: 0;
-  }
-}
-
 .s1 {
   background-image: image-url("cityMark/s1.jpg");
 }

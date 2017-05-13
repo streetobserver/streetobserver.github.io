@@ -19,16 +19,6 @@ h6::after {
   font-weight: bold;
 }
 
-.slide {
-  height: 100vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  > img {
-    opacity: 0;
-  }
-}
 
 .s1 {
   background-image: image-url("tainanWall/s1.jpg");

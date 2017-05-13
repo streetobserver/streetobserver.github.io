@@ -5,16 +5,6 @@
   background-position: center;
 }
 
-.slide {
-    height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    > img {
-        opacity: 0;
-    }
-}
 
 .s1 {
     background-image: image-url("index/s1.jpg");
