@@ -11,12 +11,6 @@ body {
     line-height: 1.75rem;
   }
 
-  .banner_img {
-    // width: 1115px;
-    height: 90vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
 }
 
 a {
@@ -27,15 +21,4 @@ a {
   &:hover {
     text-decoration: none;
   }
-}
-
-.slide {
-    height: 88vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    > img {
-        opacity: 0;
-    }
 }
