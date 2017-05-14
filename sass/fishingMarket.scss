@@ -1,0 +1,18 @@
+h5 {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+blockquote {
+  color: #d5d5d5;
+  font-size: .5rem;
+}
+
+figure {
+  > * {
+    margin: 10px;
+  }
+  .fbTag {
+    color: #24678d;
+  }
+}
