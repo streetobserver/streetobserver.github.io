@@ -7,33 +7,45 @@
 }
 
 /* line 12, ../sass/bootstrap.scss */
+.slide {
+  height: 88vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+/* line 18, ../sass/bootstrap.scss */
+.slide > img {
+  opacity: 0;
+}
+
+/* line 23, ../sass/bootstrap.scss */
 .navbar-nav {
   padding: 15px 0;
 }
-/* line 14, ../sass/bootstrap.scss */
+/* line 26, ../sass/bootstrap.scss */
 .navbar-nav .nav-item {
   margin: auto 0;
   padding: 0 20px;
 }
-/* line 18, ../sass/bootstrap.scss */
+/* line 30, ../sass/bootstrap.scss */
 .navbar-nav .nav-item > a {
   position: relative;
   text-shadow: 5px 5px 8px #C0C0C0;
 }
-/* line 21, ../sass/bootstrap.scss */
+/* line 34, ../sass/bootstrap.scss */
 .navbar-nav .nav-item > a:hover {
   top: 1px;
   left: 1px;
 }
 
-/* line 29, ../sass/bootstrap.scss */
+/* line 42, ../sass/bootstrap.scss */
 .cover {
   position: absolute;
   overflow: hidden;
   height: 286px;
   width: 178.02px;
 }
-/* line 34, ../sass/bootstrap.scss */
+/* line 48, ../sass/bootstrap.scss */
 .cover > .dropdown-menu {
   position: absolute;
   top: -101%;
@@ -42,19 +54,19 @@
 }
 
 @media (max-width: 991px) {
-  /* line 43, ../sass/bootstrap.scss */
+  /* line 56, ../sass/bootstrap.scss */
   .dropdown-menu {
     position: absolute !important;
   }
 }
-/* line 51, ../sass/bootstrap.scss */
+/* line 63, ../sass/bootstrap.scss */
 .show > .cover > .dropdown-menu {
   position: absolute;
-  top: 0%;
+  top: 0;
   display: block;
 }
 
-/* line 61, ../sass/bootstrap.scss */
+/* line 72, ../sass/bootstrap.scss */
 .card + .card {
   margin: 10px;
 }
