@@ -1,9 +1,9 @@
 @import "colors";
 
-.banner_img {
-  background-image: image-url('pBeefSoup/banner.jpg');
-  background-position: 5% 75%;
-}
+// .banner_img {
+//   background-image: image-url('pBeefSoup/banner.jpg');
+//   background-position: 5% 75%;
+// }
 
 .banner_text {
   font-size: large;
@@ -35,12 +35,12 @@
   }
 }
 
-.hidden-sm-down>.banner_img {
-  // width: 100vw;
-  height: 230px;
-  background-image: image-url('pBeefSoup/banner2.jpg');
-  background-position: center;
-}
+// .hidden-sm-down>.banner_img {
+//   // width: 100vw;
+//   height: 230px;
+//   background-image: image-url('pBeefSoup/banner2.jpg');
+//   background-position: center;
+// }
 
 .card, .gray_background {
   h5 {
