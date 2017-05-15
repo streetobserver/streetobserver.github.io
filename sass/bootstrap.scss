@@ -16,8 +16,8 @@
     height: 100%;
 
     @media (min-width: 991px) {
-      width: 70%;
-      height: 70%;
+      width: 60%;
+      height: 60%;
     }
   }
 
@@ -43,30 +43,32 @@
 }
 
 .cover {
-  position: absolute;
   overflow: hidden;
   width: 210.02px;
-  height: 238px;
+  height: 0;
 
-  > .dropdown-menu {
+  @media (min-width: 991px) {
     position: absolute;
-    top: -101%;
-    display: block;
-    transition: top 0.3s;
+    overflow: hidden;
+    width: 210.02px;
+    height: 0;
   }
-}
-@media (max-width: 991px) {
-  .dropdown-menu {
-    position: absolute!important;
+
+  transition: height 0.3s;
+  > .dropdown-menu {
+    display: block;
   }
 }
 
 .show {
   > .cover {
-    > .dropdown-menu {
+    height: 238px;
+    @media (min-width: 991px) {
       position: absolute;
-      top: 0;
-      display: block;
+      height: 238px;
+      > .dropdown-menu {
+        top: 0;
+      }
     }
   }
 }
