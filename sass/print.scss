@@ -7,10 +7,15 @@ body {
   overflow-y: scroll;
   background-color: #FAFAFA;
   p {
-    // letter-spacing: 0.25rem;
     line-height: 1.75rem;
   }
 
+  .banner_img {
+    text-align: center;
+    >img{
+      max-height: 80vh;
+    }
+  }
 }
 
 a {

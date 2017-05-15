@@ -12,12 +12,20 @@ body {
 body p {
   line-height: 1.75rem;
 }
+/* line 13, ../sass/print.scss */
+body .banner_img {
+  text-align: center;
+}
+/* line 15, ../sass/print.scss */
+body .banner_img > img {
+  max-height: 80vh;
+}
 
-/* line 16, ../sass/print.scss */
+/* line 21, ../sass/print.scss */
 a {
   text-decoration: none;
 }
-/* line 18, ../sass/print.scss */
+/* line 23, ../sass/print.scss */
 a:active, a:visited, a:focus, a:hover {
   text-decoration: none;
 }
