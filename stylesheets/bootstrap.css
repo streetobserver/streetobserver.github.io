@@ -44,8 +44,8 @@
 .cover {
   position: absolute;
   overflow: hidden;
-  height: 286px;
-  width: 178.02px;
+  width: 210.02px;
+  height: 238px;
 }
 /* line 51, ../sass/bootstrap.scss */
 .cover > .dropdown-menu {
