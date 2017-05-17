@@ -1,9 +1,16 @@
 @import "colors";
 
-// .banner_img {
-//   background-image: image-url('pBeefSoup/banner.jpg');
-//   background-position: 5% 75%;
-// }
+h5 {
+  padding-top: 1.5rem;
+}
+
+h6 {
+  position: relative;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  font-weight: bold;
+}
+
 
 .banner_text {
   font-size: large;

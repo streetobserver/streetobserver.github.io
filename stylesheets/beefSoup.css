@@ -25,27 +25,40 @@
   color: #fff;
 }
 
-/* line 8, ../sass/beefSoup.scss */
+/* line 3, ../sass/beefSoup.scss */
+h5 {
+  padding-top: 1.5rem;
+}
+
+/* line 7, ../sass/beefSoup.scss */
+h6 {
+  position: relative;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  font-weight: bold;
+}
+
+/* line 15, ../sass/beefSoup.scss */
 .banner_text {
   font-size: large;
   font-weight: bold;
 }
 
-/* line 14, ../sass/beefSoup.scss */
+/* line 21, ../sass/beefSoup.scss */
 .active_info h5 {
   border-bottom: 1px gray solid;
   padding-bottom: 2rem;
 }
-/* line 19, ../sass/beefSoup.scss */
+/* line 26, ../sass/beefSoup.scss */
 .active_info div:nth-child(2) {
   margin-top: 2rem;
 }
-/* line 23, ../sass/beefSoup.scss */
+/* line 30, ../sass/beefSoup.scss */
 .active_info div {
   position: relative;
   padding-left: 20px;
 }
-/* line 28, ../sass/beefSoup.scss */
+/* line 35, ../sass/beefSoup.scss */
 .active_info div::after {
   content: '';
   position: absolute;
@@ -55,11 +68,11 @@
   height: 1rem;
 }
 
-/* line 46, ../sass/beefSoup.scss */
+/* line 53, ../sass/beefSoup.scss */
 .card h5, .gray_background h5 {
   color: #a82e2e;
 }
-/* line 51, ../sass/beefSoup.scss */
+/* line 58, ../sass/beefSoup.scss */
 .card .card-text small, .gray_background .card-text small {
   text-align: right;
   display: block;
