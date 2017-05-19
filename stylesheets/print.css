@@ -20,29 +20,31 @@ body .mobile_logo {
 /* line 20, ../sass/print.scss */
 .hidden {
   display: none;
+  visibility: hidden;
+  opacity: 0;
 }
 
-/* line 24, ../sass/print.scss */
+/* line 26, ../sass/print.scss */
 .flexslider {
   margin: 0;
 }
-/* line 26, ../sass/print.scss */
+/* line 28, ../sass/print.scss */
 .flexslider img {
   margin: 0 auto;
   width: 100%;
 }
 @media (min-width: 991px) {
-  /* line 26, ../sass/print.scss */
+  /* line 28, ../sass/print.scss */
   .flexslider img {
     width: 60% !important;
   }
 }
 
-/* line 36, ../sass/print.scss */
+/* line 38, ../sass/print.scss */
 a {
   text-decoration: none;
 }
-/* line 38, ../sass/print.scss */
+/* line 40, ../sass/print.scss */
 a:active, a:visited, a:focus, a:hover {
   text-decoration: none;
 }
