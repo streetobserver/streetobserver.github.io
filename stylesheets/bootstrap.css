@@ -1,21 +1,20 @@
-/* line 3, ../sass/bootstrap.scss */
+/* line 4, ../sass/bootstrap.scss */
 .navbar-nav {
   padding: 15px 0;
 }
-/* line 6, ../sass/bootstrap.scss */
+/* line 7, ../sass/bootstrap.scss */
 .navbar-nav .nav-item {
   margin: auto 0;
   padding: 0 20px;
 }
-/* line 10, ../sass/bootstrap.scss */
+/* line 11, ../sass/bootstrap.scss */
 .navbar-nav .nav-item > a {
-  position: relative;
-  text-shadow: 5px 5px 8px #C0C0C0;
+  transition: all 0.5s;
 }
 /* line 14, ../sass/bootstrap.scss */
 .navbar-nav .nav-item > a:hover {
-  top: 1px;
-  left: 1px;
+  text-shadow: 5px 5px 8px #808080;
+  color: black;
 }
 
 /* line 22, ../sass/bootstrap.scss */
@@ -23,7 +22,7 @@
   overflow: hidden;
   width: 210.02px;
   height: 0;
-  transition: height 0.3s;
+  transition: height 0.5s;
 }
 @media (min-width: 991px) {
   /* line 22, ../sass/bootstrap.scss */
@@ -38,24 +37,28 @@
 .cover > .dropdown-menu {
   display: block;
 }
+/* line 37, ../sass/bootstrap.scss */
+.cover > .dropdown-menu > .dropdown-item {
+  transition: all 0.5s;
+}
 
-/* line 41, ../sass/bootstrap.scss */
+/* line 44, ../sass/bootstrap.scss */
 .show > .cover {
   height: 238px;
 }
 @media (min-width: 991px) {
-  /* line 41, ../sass/bootstrap.scss */
+  /* line 44, ../sass/bootstrap.scss */
   .show > .cover {
     position: absolute;
     height: 238px;
   }
-  /* line 46, ../sass/bootstrap.scss */
+  /* line 49, ../sass/bootstrap.scss */
   .show > .cover > .dropdown-menu {
     top: 0;
   }
 }
 
-/* line 53, ../sass/bootstrap.scss */
+/* line 56, ../sass/bootstrap.scss */
 .card {
   padding-top: 1rem;
   padding-bottom: 1rem;
