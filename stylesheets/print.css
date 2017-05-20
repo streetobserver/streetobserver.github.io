@@ -1,50 +1,60 @@
 /* Welcome to Compass. Use this file to define print styles.
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
-/* line 4, ../sass/print.scss */
+/* line 1, ../sass/_flexslider.scss */
+.flexslider {
+  margin: 0;
+}
+/* line 3, ../sass/_flexslider.scss */
+.flexslider img {
+  margin: 0 auto;
+  width: 100%;
+}
+@media (min-width: 991px) {
+  /* line 3, ../sass/_flexslider.scss */
+  .flexslider img {
+    width: 60% !important;
+  }
+}
+/* line 12, ../sass/_flexslider.scss */
+.flexslider .flex-control-nav {
+  bottom: -2%;
+}
+/* line 14, ../sass/_flexslider.scss */
+.flexslider .flex-control-nav a {
+  width: 7px;
+  height: 7px;
+  transition: all 0.3s;
+}
+
+/* line 6, ../sass/print.scss */
 body {
   font-family: sans-serif;
   height: 100vh;
   overflow-y: scroll;
   background-color: #FAFAFA;
 }
-/* line 10, ../sass/print.scss */
+/* line 12, ../sass/print.scss */
 body p {
   line-height: 1.75rem;
 }
-/* line 14, ../sass/print.scss */
+/* line 16, ../sass/print.scss */
 body .mobile_logo {
   height: 40px;
 }
 
-/* line 20, ../sass/print.scss */
+/* line 22, ../sass/print.scss */
 .hidden {
   display: none;
   visibility: hidden;
   opacity: 0;
 }
 
-/* line 26, ../sass/print.scss */
-.flexslider {
-  margin: 0;
-}
-/* line 28, ../sass/print.scss */
-.flexslider img {
-  margin: 0 auto;
-  width: 100%;
-}
-@media (min-width: 991px) {
-  /* line 28, ../sass/print.scss */
-  .flexslider img {
-    width: 60% !important;
-  }
-}
-
-/* line 38, ../sass/print.scss */
+/* line 30, ../sass/print.scss */
 a {
   text-decoration: none;
 }
-/* line 40, ../sass/print.scss */
+/* line 32, ../sass/print.scss */
 a:active, a:visited, a:focus, a:hover {
   text-decoration: none;
 }

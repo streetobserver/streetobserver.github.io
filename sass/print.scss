@@ -1,6 +1,8 @@
 /* Welcome to Compass. Use this file to define print styles.
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
+@import "flexslider";
+
 body {
   font-family: sans-serif;
   height: 100vh;
@@ -23,17 +25,7 @@ body {
   opacity: 0;
 }
 
-.flexslider{
-  margin: 0;
-  img {
-    margin: 0 auto;
-    width: 100%;
 
-    @media (min-width: 991px) {
-      width: 60%!important;
-    }
-  }
-}
 
 a {
   text-decoration: none;

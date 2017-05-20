@@ -1,0 +1,20 @@
+.flexslider{
+  margin: 0;
+  img {
+    margin: 0 auto;
+    width: 100%;
+
+    @media (min-width: 991px) {
+      width: 60%!important;
+    }
+  }
+
+  .flex-control-nav {
+    bottom: -2%;
+    a {
+      width: 7px;
+      height: 7px;
+      transition: all 0.3s;
+    }
+  }
+}
