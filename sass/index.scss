@@ -1,32 +1,32 @@
 @import "colors";
 
 .card {
-    margin: 5vh 0;
-    border: 0;
+  margin: 5vh 0;
+  border: 0;
 
-    .card-block {
-        text-align: center;
-        padding: 0;
+  .card-block {
+    text-align: center;
+    padding: 0;
 
-        h5 {
-            margin: 0.25rem 0;
-        }
-
-        img {
-            width: 245px;
-        }
-
-        h6 {
-            margin-top: 1rem;
-            margin-bottom: 2rem;
-            color: $dark_red;
-        }
-
-        p {
-          padding: 0 15px;
-            text-align: left;
-        }
+    h5 {
+      margin: 0.25rem 0;
     }
+
+    img {
+      width: 245px;
+    }
+
+    h6 {
+      margin-top: 1rem;
+      margin-bottom: 2rem;
+      color: $dark_red;
+    }
+
+    p {
+      padding: 0 15px;
+      text-align: left;
+    }
+  }
 }
 
 .group_summary {

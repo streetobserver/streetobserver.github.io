@@ -3,6 +3,8 @@
  * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
 @import "flexslider";
 
+$mobile_logo_width: 247.5px;
+
 body {
   font-family: sans-serif;
   height: 100vh;
@@ -13,11 +15,46 @@ body {
     line-height: 1.75rem;
   }
 
-  .mobile_logo {
-    height: 40px;
-    @media (max-width: 375px){
-      width: 70%;
-      height: 70%;
+
+
+  nav.navbar {
+    transition: all .3s;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    // border: 1px solid blue;
+    background-color: #FAFAFA;
+    z-index: 2;
+    box-shadow: 0 0 50px #888888;
+    // > .mobile_logo {
+    //   transition: all .3s;
+    // }
+    @media (min-width: 992px) {
+      //  .mobile_logo {
+      //   width: 0;
+      //   transition: all .3s;
+      // }
+      position: static;
+      // border: 1px solid red;
+      box-shadow: none;
+    }
+  }
+
+  header nav.navbar.fix_menu {
+    transition: all .3s;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    // border: 1px solid blue;
+    background-color: #FAFAFA;
+    z-index: 2;
+    box-shadow: 0 0 50px #888888;
+
+    &+*{
+      margin-bottom: 66px;
     }
   }
 
@@ -29,7 +66,6 @@ body {
       display: flex;
       align-items: flex-start;
       flex-direction: column;
-
       @media (min-width: 576px) {
         flex-direction: row;
         align-items: center;
@@ -38,7 +74,7 @@ body {
 
       > div {
         color: #fff;
-        font-size: .5rem;
+        font-size: 0.5rem;
 
         img {
           width: 170px;
@@ -50,16 +86,17 @@ body {
         }
 
         a {
-          &:hover,
           &:active,
-          &:visited,
-          &:focus {
+          &:focus,
+          &:hover,
+          &:visited {
             color: #fff;
           }
         }
 
         i {
           font-size: 2rem;
+
           &+span {
             margin-left: 7px;
             margin-right: 5px;
@@ -71,14 +108,15 @@ body {
           margin-top: 1rem;
         }
         display: block;
-
         @media (min-width: 576px) {
           display: inline-block;
           position: relative;
+
           &+div {
             margin-left: 4rem;
             margin-top: 0;
           }
+
           &+div::before {
             content: '';
             position: absolute;
@@ -91,7 +129,29 @@ body {
       }
     }
   }
+}
 
+.mobile_logo {
+  width: $mobile_logo_width;
+  transition: all .3s;
+  @media (max-width: 375px) {
+    width: 70%;
+    height: 70%;
+  }
+  @media (min-width: 992px) {
+    width: 0;
+  }
+}
+.fix_menu .mobile_logo {
+  width: $mobile_logo_width;
+  transition: all .3s;
+  @media (max-width: 375px) {
+    width: 70%;
+    height: 70%;
+  }
+  @media (min-width: 992px) {
+    width: $mobile_logo_width;
+  }
 }
 
 .hidden {
@@ -102,10 +162,11 @@ body {
 
 a {
   text-decoration: none;
+
   &:active,
-  &:visited,
   &:focus,
-  &:hover {
+  &:hover,
+  &:visited {
     text-decoration: none;
   }
 }
