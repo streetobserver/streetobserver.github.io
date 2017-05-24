@@ -4,6 +4,9 @@
 @import "flexslider";
 
 $mobile_logo_width: 247.5px;
+$normal_speed: .3s;
+$mobile_logo_speed: .4s;
+
 
 body {
   font-family: sans-serif;
@@ -15,10 +18,16 @@ body {
     line-height: 1.75rem;
   }
 
+  #fix_menu_spacer{
+    height: 66px;
+    @media (min-width: 992px) {
+      height: 0;
+    }
+  }
 
 
   nav.navbar {
-    transition: all .3s;
+    transition: all $normal_speed;
     position: fixed;
     top: 0;
     left: 0;
@@ -27,35 +36,24 @@ body {
     background-color: #FAFAFA;
     z-index: 2;
     box-shadow: 0 0 50px #888888;
-    // > .mobile_logo {
-    //   transition: all .3s;
-    // }
+
     @media (min-width: 992px) {
-      //  .mobile_logo {
-      //   width: 0;
-      //   transition: all .3s;
-      // }
       position: static;
-      // border: 1px solid red;
       box-shadow: none;
     }
   }
 
   header nav.navbar.fix_menu {
-    transition: all .3s;
+    transition: all $normal_speed;
 
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    // border: 1px solid blue;
     background-color: #FAFAFA;
     z-index: 2;
     box-shadow: 0 0 50px #888888;
 
-    &+*{
-      margin-bottom: 66px;
-    }
   }
 
   footer {
@@ -133,7 +131,7 @@ body {
 
 .mobile_logo {
   width: $mobile_logo_width;
-  transition: all .3s;
+  transition: all $mobile_logo_speed;
   @media (max-width: 375px) {
     width: 70%;
     height: 70%;
@@ -142,9 +140,10 @@ body {
     width: 0;
   }
 }
+
 .fix_menu .mobile_logo {
   width: $mobile_logo_width;
-  transition: all .3s;
+  transition: all $mobile_logo_speed;
   @media (max-width: 375px) {
     width: 70%;
     height: 70%;
