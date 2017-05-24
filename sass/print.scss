@@ -34,7 +34,7 @@ body {
     width: 100%;
     // border: 1px solid blue;
     background-color: #FAFAFA;
-    z-index: 2;
+    z-index: 20;
     box-shadow: 0 0 50px #888888;
 
     @media (min-width: 992px) {
@@ -51,7 +51,7 @@ body {
     left: 0;
     width: 100%;
     background-color: #FAFAFA;
-    z-index: 2;
+    z-index: 20;
     box-shadow: 0 0 50px #888888;
 
   }
@@ -144,6 +144,7 @@ body {
 .fix_menu .mobile_logo {
   width: $mobile_logo_width;
   transition: all $mobile_logo_speed;
+  transition-delay: height $mobile_logo_speed;
   @media (max-width: 375px) {
     width: 70%;
     height: 70%;
