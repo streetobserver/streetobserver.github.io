@@ -9,6 +9,9 @@ blockquote {
 }
 
 figure {
+  div {
+    max-width: 369px;
+  }
   > * {
     margin: 10px;
   }
