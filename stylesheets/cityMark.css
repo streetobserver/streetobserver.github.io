@@ -1,1 +1,19 @@
-h5{margin-top:20px;margin-bottom:15px}blockquote{color:#d5d5d5;font-size:.5rem}figure div{max-width:369px}figure>*{margin:10px}figure .fbTag{color:#24678d}
+h5 {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+blockquote {
+  color: #d5d5d5;
+  font-size: .5rem;
+}
+
+figure div {
+  max-width: 369px;
+}
+figure > * {
+  margin: 10px;
+}
+figure .fbTag {
+  color: #24678d;
+}
