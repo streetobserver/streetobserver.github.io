@@ -1,40 +1,39 @@
 @import "colors";
 
-.card {
-  margin: 5vh 0;
-  border: 0;
 
-  .card-block {
-    text-align: center;
-    padding: 0;
+h1, h2 {
+    font-size: 16pt;
+    font-weight: 700;
+    line-height: 6em;
 
-    h5 {
-      margin: 0.25rem 0;
+    position: relative;
+    &::after {
+        content: '';
+        position: absolute;
+        top: 4em;
+        left: 0;
+        right: 0;
+        margin: auto;
+        height: 2px;
+        width: 180px;
+        background-color: #aaa;
     }
-
-    img {
-      width: 245px;
-    }
-
-    h6 {
-      margin-top: 1rem;
-      margin-bottom: 2rem;
-      color: $dark_red;
-    }
-
-    p {
-      padding: 0 15px;
-      text-align: left;
-    }
-  }
 }
 
-.group_summary {
-  min-height: 50vh;
-  h1 {
-    font-size: 1.5rem;
-    color: #248d6c;
-  }
+.banner {
+    width: 100%;
+    font-size: 0;
+    img {
+        // box-shadow: 0 0 0 1px red;
+        // height: 10px!important;
+
+        $spacer: 10px;
+        display: inline-block;
+        width: calc((100% - #{$spacer} * 4)/5);
+        & + img {
+            margin-left: $spacer;
+        }
+    }
 }
 
 .join_us {

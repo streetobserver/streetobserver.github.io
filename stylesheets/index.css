@@ -20,36 +20,34 @@
   color: #fff;
 }
 
-.card {
-  margin: 5vh 0;
-  border: 0;
+h1, h2 {
+  font-size: 16pt;
+  font-weight: 700;
+  line-height: 6em;
+  position: relative;
 }
-.card .card-block {
-  text-align: center;
-  padding: 0;
-}
-.card .card-block h5 {
-  margin: 0.25rem 0;
-}
-.card .card-block img {
-  width: 245px;
-}
-.card .card-block h6 {
-  margin-top: 1rem;
-  margin-bottom: 2rem;
-  color: #a82e2e;
-}
-.card .card-block p {
-  padding: 0 15px;
-  text-align: left;
+h1::after, h2::after {
+  content: '';
+  position: absolute;
+  top: 4em;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 2px;
+  width: 180px;
+  background-color: #aaa;
 }
 
-.group_summary {
-  min-height: 50vh;
+.banner {
+  width: 100%;
+  font-size: 0;
 }
-.group_summary h1 {
-  font-size: 1.5rem;
-  color: #248d6c;
+.banner img {
+  display: inline-block;
+  width: calc((100% - 10px * 4)/5);
+}
+.banner img + img {
+  margin-left: 10px;
 }
 
 .join_us {
