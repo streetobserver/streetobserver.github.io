@@ -1,47 +1,51 @@
 @import "colors";
 
 
-h1, h2 {
-    font-size: 16pt;
-    font-weight: 700;
-    line-height: 6em;
+#article {
+    background-color: #fff;
 
-    position: relative;
-    &::after {
-        content: '';
-        position: absolute;
-        top: 4em;
-        left: 0;
-        right: 0;
-        margin: auto;
-        height: 2px;
-        width: 180px;
-        background-color: #aaa;
-    }
 }
 
-.banner {
-    width: 100%;
+.observed_works {
+    max-width: 820px;
     font-size: 0;
-    img {
-        // box-shadow: 0 0 0 1px red;
-        // height: 10px!important;
+    text-align: center;
+    margin: auto;
 
-        $spacer: 10px;
+    .item {
+
+
+
+        $spacer: 20px;
         display: inline-block;
-        width: calc((100% - #{$spacer} * 4)/5);
-        & + img {
-            margin-left: $spacer;
+
+        width: 100%;
+        &:nth-child(n+2) {
+            margin-top: $spacer;
+        }
+        @media (min-width: 576px) {
+            width: calc((100% - #{$spacer} * 2)/3);
+            &:nth-child(3n+2), &:nth-child(3n+3) {
+                margin-left: $spacer;
+            }
+            &:nth-child(n+4) {
+                margin-top: $spacer;
+            }
+        }
+
+        >img {
+            height: 150px;
+            margin: 15px 0;
+        }
+
+        > h2 {
+            font-size: 14pt;
+            font-weight: 700;
+
+        }
+
+        > time {
+            font-size: 12pt;
         }
     }
-}
-
-.join_us {
-  color: #fff;
-  min-height: 20vh;
-  .btn-danger {
-    &:hover {
-      background-color: $dark_red;
-    }
-  }
 }

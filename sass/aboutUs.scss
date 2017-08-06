@@ -1,0 +1,40 @@
+@import "colors";
+
+
+h1, h2 {
+    font-size: 16pt;
+    font-weight: 700;
+    line-height: 6em;
+
+    position: relative;
+    &::after {
+        content: '';
+        position: absolute;
+        top: 4em;
+        left: 0;
+        right: 0;
+        margin: auto;
+        height: 2px;
+        width: 180px;
+        background-color: #aaa;
+    }
+}
+
+.banner {
+    width: 100%;
+    font-size: 0;
+    .banner_img {
+        height: 10vw;
+        overflow: hidden;
+        $spacer: 10px;
+        display: inline-block;
+        width: calc((100% - #{$spacer} * 4)/5);
+        img {
+            width: 100%;
+            height: auto;
+        }
+        & + .banner_img {
+            margin-left: $spacer;
+        }
+    }
+}
