@@ -13,9 +13,6 @@
     margin: auto;
 
     .item {
-
-
-
         $spacer: 20px;
         display: inline-block;
 
@@ -34,7 +31,7 @@
         }
 
         >img {
-            height: 150px;
+            width: 100%;
             margin: 15px 0;
         }
 
