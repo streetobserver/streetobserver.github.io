@@ -3,12 +3,14 @@ $(document).scroll(sticky);
 function sticky() {
     const direct = 'top';
     const target_element = $('nav');
-    const menuButton = $('#fix_menu_spacer').offset()[direct] - $('nav').outerHeight();
-    // console.log(menuButton, window.scrollY);
-    if(window.scrollY - menuButton > 0) {
+    const menuTop = $('nav').offset()[direct];
+    const menuBottom = $('nav').offset()[direct];
+    const spacerTop = $('#fix_menu_spacer').offset()[direct];
+    // console.log(window.scrollY, menuBottom, spacerTop);
+    if(window.scrollY > menuTop) {
         target_element.addClass('fix_menu');
     }
-    else {
+    else if (window.scrollY < spacerTop){
         target_element.removeClass('fix_menu');
     }
 }
