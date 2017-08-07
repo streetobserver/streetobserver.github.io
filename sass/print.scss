@@ -27,7 +27,8 @@ body {
 
 
   nav.navbar {
-    transition: all $normal_speed;
+    // transition: all $normal_speed;
+    // transition: all 0.3s cubic-bezier(0.86, 2.23, 0.63, 0.4);
     position: fixed;
     top: 0;
     left: 0;
@@ -41,10 +42,11 @@ body {
       position: static;
       box-shadow: none;
     }
+
   }
 
   header nav.navbar.fix_menu {
-    transition: all $normal_speed;
+    // transition: all $normal_speed;
 
     position: fixed;
     top: 0;
@@ -133,6 +135,7 @@ body {
 .mobile_logo {
   width: $mobile_logo_width;
   transition: all $mobile_logo_speed;
+
   @media (max-width: 375px) {
     width: 70%;
     height: 70%;
@@ -152,6 +155,7 @@ body {
   }
   @media (min-width: 992px) {
     width: $mobile_logo_width;
+    transition: all $mobile_logo_speed cubic-bezier(0, 2.07, 0.51, 0.54);
   }
 }
 
