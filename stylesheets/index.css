@@ -48,14 +48,21 @@
     margin-top: 20px;
   }
 }
-.observed_works .item > img {
+.observed_works .item img {
   width: 100%;
   margin: 15px 0;
+  transition: transform 0.3s cubic-bezier(0.43, 2.99, 0.46, -0.81);
 }
-.observed_works .item > h2 {
+.observed_works .item h2 {
   font-size: 14pt;
   font-weight: 700;
 }
-.observed_works .item > time {
+.observed_works .item a:hover img:hover {
+  transform: scale(1.1) rotate(3deg);
+}
+.observed_works .item a:hover h2, .observed_works .item a:active h2, .observed_works .item a:visited h2 {
+  color: #000;
+}
+.observed_works .item time {
   font-size: 12pt;
 }

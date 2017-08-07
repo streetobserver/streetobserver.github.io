@@ -1,9 +1,7 @@
 @import "colors";
 
-
 #article {
     background-color: #fff;
-
 }
 
 .observed_works {
@@ -30,18 +28,36 @@
             }
         }
 
-        >img {
+        img {
             width: 100%;
             margin: 15px 0;
+            transition: transform .3s cubic-bezier(0.43, 2.99, 0.46, -0.81);
         }
 
-        > h2 {
+        h2 {
             font-size: 14pt;
             font-weight: 700;
-
         }
 
-        > time {
+        a {
+            &:hover {
+                img {
+                    &:hover {
+                        transform: scale(1.1) rotate(3deg);
+                    }
+                }
+            }
+            &:hover,
+            &:active,
+            &:visited {
+
+                h2 {
+                    color: #000;
+                }
+            }
+        }
+
+        time {
             font-size: 12pt;
         }
     }
