@@ -18,12 +18,12 @@ body {
     line-height: 1.75rem;
   }
 
-  #fix_menu_spacer {
-    height: 66px;
-    @media (min-width: 992px) {
-      height: 0;
-    }
-  }
+  // #fix_menu_spacer {
+  //   height: 66px;
+  //   @media (min-width: 992px) {
+  //     height: 0;
+  //   }
+  // }
 
 
   nav.navbar {
@@ -43,6 +43,14 @@ body {
       box-shadow: none;
     }
 
+    & + #fix_menu_spacer {
+        height: 66px;
+        @media (min-width: 992px) {
+          height: 0;
+        }
+      }
+
+
   }
 
   header nav.navbar.fix_menu {
@@ -55,6 +63,14 @@ body {
     background-color: #FAFAFA;
     z-index: 20;
     box-shadow: 0 0 50px #888888;
+
+    & + #fix_menu_spacer {
+        height: 66px;
+        @media (min-width: 992px) {
+          height: 86px;
+        }
+      }
+
   }
 
   footer {

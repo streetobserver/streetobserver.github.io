@@ -1,31 +1,38 @@
+/* line 6, ../sass/_colors.scss */
 .gray_background {
   background-color: #f4f4f4;
   background-image: none;
 }
 
+/* line 11, ../sass/_colors.scss */
 .green_background {
   background-color: #248d6c;
   background-image: none;
 }
 
+/* line 16, ../sass/_colors.scss */
 .green_font {
   color: #248d6c;
 }
 
+/* line 20, ../sass/_colors.scss */
 .blue_font {
   color: #24678d;
 }
 
+/* line 24, ../sass/_colors.scss */
 .white_font {
   color: #fff;
 }
 
+/* line 4, ../sass/aboutUs.scss */
 h1, h2 {
   font-size: 16pt;
   font-weight: 700;
   line-height: 6em;
   position: relative;
 }
+/* line 10, ../sass/aboutUs.scss */
 h1::after, h2::after {
   content: '';
   position: absolute;
@@ -38,20 +45,24 @@ h1::after, h2::after {
   background-color: #aaa;
 }
 
+/* line 23, ../sass/aboutUs.scss */
 .banner {
   width: 100%;
   font-size: 0;
 }
+/* line 26, ../sass/aboutUs.scss */
 .banner .banner_img {
   height: 10vw;
   overflow: hidden;
   display: inline-block;
   width: calc((100% - 10px * 4)/5);
 }
+/* line 32, ../sass/aboutUs.scss */
 .banner .banner_img img {
   width: 100%;
   height: auto;
 }
+/* line 36, ../sass/aboutUs.scss */
 .banner .banner_img + .banner_img {
   margin-left: 10px;
 }

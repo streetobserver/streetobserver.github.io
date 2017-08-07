@@ -1,18 +1,23 @@
+/* line 5, ../sass/bootstrap.scss */
 .navbar-nav {
   padding: 15px 0;
 }
+/* line 8, ../sass/bootstrap.scss */
 .navbar-nav .nav-item {
   margin: auto 0;
   padding: 0 20px;
 }
+/* line 12, ../sass/bootstrap.scss */
 .navbar-nav .nav-item > a {
   transition: all 0.5s;
 }
+/* line 15, ../sass/bootstrap.scss */
 .navbar-nav .nav-item > a:hover {
   text-shadow: 5px 5px 8px #808080;
   color: black;
 }
 
+/* line 23, ../sass/bootstrap.scss */
 .cover {
   overflow: hidden;
   width: 210.02px;
@@ -20,6 +25,7 @@
   transition: height 0.5s;
 }
 @media (min-width: 991px) {
+  /* line 23, ../sass/bootstrap.scss */
   .cover {
     position: absolute;
     overflow: hidden;
@@ -27,26 +33,32 @@
     height: 0;
   }
 }
+/* line 36, ../sass/bootstrap.scss */
 .cover > .dropdown-menu {
   display: block;
 }
+/* line 38, ../sass/bootstrap.scss */
 .cover > .dropdown-menu > .dropdown-item {
   transition: all 0.5s;
 }
 
+/* line 45, ../sass/bootstrap.scss */
 .show > .cover {
   height: 238px;
 }
 @media (min-width: 991px) {
+  /* line 45, ../sass/bootstrap.scss */
   .show > .cover {
     position: absolute;
     height: 238px;
   }
+  /* line 50, ../sass/bootstrap.scss */
   .show > .cover > .dropdown-menu {
     top: 0;
   }
 }
 
+/* line 57, ../sass/bootstrap.scss */
 .card {
   padding-top: 1rem;
   padding-bottom: 1rem;

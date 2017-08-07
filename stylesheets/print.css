@@ -1,44 +1,44 @@
 /* Welcome to Compass. Use this file to define print styles.
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
+/* line 1, ../sass/_flexslider.scss */
 .flexslider {
   margin: 0;
 }
+/* line 3, ../sass/_flexslider.scss */
 .flexslider img {
   margin: 0 auto;
   width: 100%;
 }
 @media (min-width: 991px) {
+  /* line 3, ../sass/_flexslider.scss */
   .flexslider img {
     width: 60% !important;
   }
 }
+/* line 12, ../sass/_flexslider.scss */
 .flexslider .flex-control-nav {
   bottom: -2%;
 }
+/* line 14, ../sass/_flexslider.scss */
 .flexslider .flex-control-nav a {
   width: 7px;
   height: 7px;
   transition: all 0.3s;
 }
 
+/* line 11, ../sass/print.scss */
 body {
   font-family: sans-serif;
   height: 100vh;
   overflow-y: scroll;
   background-color: #FAFAFA;
 }
+/* line 17, ../sass/print.scss */
 body p {
   line-height: 1.75rem;
 }
-body #fix_menu_spacer {
-  height: 66px;
-}
-@media (min-width: 992px) {
-  body #fix_menu_spacer {
-    height: 0;
-  }
-}
+/* line 29, ../sass/print.scss */
 body nav.navbar {
   position: fixed;
   top: 0;
@@ -49,11 +49,23 @@ body nav.navbar {
   box-shadow: 0 0 50px #888888;
 }
 @media (min-width: 992px) {
+  /* line 29, ../sass/print.scss */
   body nav.navbar {
     position: static;
     box-shadow: none;
   }
 }
+/* line 46, ../sass/print.scss */
+body nav.navbar + #fix_menu_spacer {
+  height: 66px;
+}
+@media (min-width: 992px) {
+  /* line 46, ../sass/print.scss */
+  body nav.navbar + #fix_menu_spacer {
+    height: 0;
+  }
+}
+/* line 56, ../sass/print.scss */
 body header nav.navbar.fix_menu {
   position: fixed;
   top: 0;
@@ -63,9 +75,21 @@ body header nav.navbar.fix_menu {
   z-index: 20;
   box-shadow: 0 0 50px #888888;
 }
+/* line 67, ../sass/print.scss */
+body header nav.navbar.fix_menu + #fix_menu_spacer {
+  height: 66px;
+}
+@media (min-width: 992px) {
+  /* line 67, ../sass/print.scss */
+  body header nav.navbar.fix_menu + #fix_menu_spacer {
+    height: 86px;
+  }
+}
+/* line 76, ../sass/print.scss */
 body footer {
   background-color: #999999;
 }
+/* line 79, ../sass/print.scss */
 body footer .footer {
   padding: 2.5rem 0;
   display: flex;
@@ -73,50 +97,62 @@ body footer .footer {
   flex-direction: column;
 }
 @media (min-width: 576px) {
+  /* line 79, ../sass/print.scss */
   body footer .footer {
     flex-direction: row;
     align-items: center;
     justify-content: center;
   }
 }
+/* line 90, ../sass/print.scss */
 body footer .footer > div {
   color: #fff;
   font-size: 0.5rem;
   display: block;
 }
+/* line 94, ../sass/print.scss */
 body footer .footer > div img {
   width: 170px;
   height: 100%;
 }
+/* line 99, ../sass/print.scss */
 body footer .footer > div h6 {
   padding: 0;
 }
+/* line 103, ../sass/print.scss */
 body footer .footer > div a {
   color: #fff;
 }
+/* line 106, ../sass/print.scss */
 body footer .footer > div a:active, body footer .footer > div a:focus, body footer .footer > div a:hover, body footer .footer > div a:visited {
   color: #fff;
 }
+/* line 114, ../sass/print.scss */
 body footer .footer > div i {
   font-size: 2rem;
 }
+/* line 117, ../sass/print.scss */
 body footer .footer > div i + span {
   margin-left: 7px;
   margin-right: 5px;
 }
+/* line 123, ../sass/print.scss */
 body footer .footer > div + div {
   margin-left: 11px;
   margin-top: 1rem;
 }
 @media (min-width: 576px) {
+  /* line 90, ../sass/print.scss */
   body footer .footer > div {
     display: inline-block;
     position: relative;
   }
+  /* line 132, ../sass/print.scss */
   body footer .footer > div + div {
     margin-left: 4rem;
     margin-top: 0;
   }
+  /* line 137, ../sass/print.scss */
   body footer .footer > div + div::before {
     content: '';
     position: absolute;
@@ -127,49 +163,58 @@ body footer .footer > div + div {
   }
 }
 
+/* line 151, ../sass/print.scss */
 .mobile_logo {
   width: 247.5px;
   transition: all 0.4s;
 }
 @media (max-width: 375px) {
+  /* line 151, ../sass/print.scss */
   .mobile_logo {
     width: 70%;
     height: 70%;
   }
 }
 @media (min-width: 992px) {
+  /* line 151, ../sass/print.scss */
   .mobile_logo {
     width: 0;
   }
 }
 
+/* line 164, ../sass/print.scss */
 .fix_menu .mobile_logo {
   width: 247.5px;
   transition: all 0.4s;
   transition-delay: height 0.4s;
 }
 @media (max-width: 375px) {
+  /* line 164, ../sass/print.scss */
   .fix_menu .mobile_logo {
     width: 70%;
     height: 70%;
   }
 }
 @media (min-width: 992px) {
+  /* line 164, ../sass/print.scss */
   .fix_menu .mobile_logo {
     width: 247.5px;
     transition: all 0.4s cubic-bezier(0, 2.07, 0.51, 0.54);
   }
 }
 
+/* line 178, ../sass/print.scss */
 .hidden {
   display: none;
   visibility: hidden;
   opacity: 0;
 }
 
+/* line 184, ../sass/print.scss */
 a {
   text-decoration: none;
 }
+/* line 187, ../sass/print.scss */
 a:active, a:focus, a:hover, a:visited {
   text-decoration: none;
 }

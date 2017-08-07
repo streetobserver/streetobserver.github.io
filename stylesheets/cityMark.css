@@ -1,19 +1,24 @@
+/* line 1, ../sass/cityMark.scss */
 h5 {
   margin-top: 20px;
   margin-bottom: 15px;
 }
 
+/* line 6, ../sass/cityMark.scss */
 blockquote {
   color: #d5d5d5;
   font-size: .5rem;
 }
 
+/* line 12, ../sass/cityMark.scss */
 figure div {
   max-width: 369px;
 }
+/* line 15, ../sass/cityMark.scss */
 figure > * {
   margin: 10px;
 }
+/* line 18, ../sass/cityMark.scss */
 figure .fbTag {
   color: #24678d;
 }

@@ -1,8 +1,10 @@
 @charset "UTF-8";
+/* line 2, ../sass/tainanWall.scss */
 h5 {
   padding-top: 1.5rem;
 }
 
+/* line 6, ../sass/tainanWall.scss */
 h6 {
   position: relative;
   padding-top: 1rem;
@@ -10,6 +12,7 @@ h6 {
   font-weight: bold;
 }
 
+/* line 13, ../sass/tainanWall.scss */
 h6::after {
   content: '‧';
   position: absolute;
