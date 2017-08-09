@@ -1,12 +1,19 @@
 /* Welcome to Compass. Use this file to define print styles.
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
+ @import url(//fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
 @import "flexslider";
 
 $mobile_logo_width: 247.5px;
 $normal_speed: .3s;
 $mobile_logo_speed: .4s;
 
+
+.font-fangsong {
+  font-family: "cwTeXFangSong",serif !important;
+  font-size: 14pt;
+  letter-spacing: .1em;
+}
 
 body {
   font-family: 'Noto Sans', sans-serif;
