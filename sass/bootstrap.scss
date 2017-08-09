@@ -1,5 +1,5 @@
 
-$menu_speed: 0.5s;
+$menu_speed: 0.2s;
 
 
 .navbar-nav {
@@ -9,13 +9,12 @@ $menu_speed: 0.5s;
     margin: auto 0;
     padding: 0 20px;
 
-    > a {
-      transition: all $menu_speed;
+    transition: all $menu_speed;
 
-      &:hover {
-        text-shadow: 5px 5px 8px #808080;
-        color: black;
-      }
+    &:hover {
+      // letter-spacing: 0.3em;
+      font-weight: 700;
+      color: #000;
     }
   }
 }
