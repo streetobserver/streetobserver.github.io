@@ -60,5 +60,25 @@
         time {
             font-size: 12pt;
         }
+
+        &.comingsoon {
+
+          position: relative;
+          &::after {
+            content: '籌畫中...';
+            display: block;
+            position: absolute;
+            bottom: 75px;
+            right: 0;
+            left: 0;
+            font-size: 12pt;
+            color: #cecece;
+            height: auto;
+            width: 100%;
+            line-height: 20pt;
+            text-align: right;
+            text-shadow: -12px 0 22px black, 12px 0 22px black;
+          }
+        }
     }
 }
