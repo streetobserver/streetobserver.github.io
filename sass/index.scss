@@ -65,19 +65,22 @@
 
           position: relative;
           &::after {
-            content: '籌畫中...';
+            content: '近期活動...';
             display: block;
             position: absolute;
-            bottom: 75px;
-            right: 0;
+            bottom: 80px;
+            right: 5%;
             left: 0;
             font-size: 12pt;
             color: #cecece;
             height: auto;
-            width: 100%;
+            width: 95%;
             line-height: 20pt;
             text-align: right;
-            text-shadow: -12px 0 22px black, 12px 0 22px black;
+            text-shadow:  1px  1px 0 #333,
+                         -1px -1px 0 #333,
+                          1px -1px 0 #333, 
+                         -1px  1px 0 #333;
           }
         }
     }
