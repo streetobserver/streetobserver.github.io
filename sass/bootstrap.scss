@@ -34,8 +34,30 @@ $menu_speed: 0.2s;
   transition: height $menu_speed;
   > .dropdown-menu {
     display: block;
+    border: none;
+    >.dropdown-divider {
+      opacity: 0;
+    }
     >.dropdown-item{
       transition: all $menu_speed;
+
+      &.active {
+        color: #fff;
+        text-decoration: none;
+        background: none;
+        font-weight: 500;
+        text-shadow: -1px -1px 0 #333,
+                      1px  1px 0 #333,
+                     -1px  1px 0 #333,
+                      1px -1px 0 #333,
+                      1px  0px 0 #333,
+                      0px -1px 0 #333,
+                     -1px  0px 0 #333,
+                      0px  1px 0 #333;
+        &:hover {
+          color: #0275d8;
+        }
+      }
 
       &:focus,
       &:hover {
