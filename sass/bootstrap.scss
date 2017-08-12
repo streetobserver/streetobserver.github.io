@@ -36,6 +36,14 @@ $menu_speed: 0.2s;
     display: block;
     >.dropdown-item{
       transition: all $menu_speed;
+
+      &:focus,
+      &:hover {
+        color: #333;
+        text-decoration: none;
+        font-weight: 700;
+        // background-color: hsla(208, 98%, 29%, 1);
+      }
     }
   }
 }
