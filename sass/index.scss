@@ -40,21 +40,19 @@
         }
 
         a {
+          img {
             &:hover {
-                img {
-                    &:hover {
-                        transform: scale(1.05);// rotate(3deg);
-                    }
-                }
+              transform: scale(1.05);// rotate(3deg);
             }
-            &:hover,
-            &:active,
-            &:visited {
+          }
+          &:hover,
+          &:active,
+          &:visited {
 
-                h2 {
-                    color: #000!important;
-                }
-            }
+              h2 {
+                  color: #000!important;
+              }
+          }
         }
 
         time {
@@ -79,7 +77,7 @@
             text-align: right;
             text-shadow:  1px  1px 0 #333,
                          -1px -1px 0 #333,
-                          1px -1px 0 #333, 
+                          1px -1px 0 #333,
                          -1px  1px 0 #333;
           }
         }
