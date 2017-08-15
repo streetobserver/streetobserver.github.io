@@ -6,7 +6,7 @@ function sticky() {
     const menuTop = $('nav').offset()[direct];
     const menuBottom = $('nav').offset()[direct];
     const spacerTop = $('#fix_menu_spacer').offset()[direct];
-    console.log(window.scrollY, menuBottom, spacerTop);
+    // console.log(window.scrollY, menuBottom, spacerTop);
     if(window.scrollY > menuTop) {
         target_element.addClass('fix_menu');
     }
