@@ -31,7 +31,6 @@
         img {
             width: 100%;
             margin: 15px 0;
-            transition: transform .3s ease-out;//cubic-bezier(0.43, 2.99, 0.46, -0.81);
         }
 
         h2 {
@@ -40,46 +39,43 @@
         }
 
         a {
-          img {
-            &:hover {
-              transform: scale(1.05);// rotate(3deg);
-            }
+          display: block;
+          transition: transform .3s ease-out;//cubic-bezier(0.43, 2.99, 0.46, -0.81);
+          &:first-child:hover {
+            transform: scale(1.05);// rotate(3deg);
           }
+
           &:hover,
           &:active,
           &:visited {
-
               h2 {
                   color: #000!important;
               }
+          }
+          &.comingsoon {
+            position: relative;
+            &::before {
+              content: '近期活動...';
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              left: 0;
+
+              display: block;
+              width: 100%;
+              height: auto;
+
+              color: #fff;
+              font-size: 12pt;
+              text-align: center;
+              line-height: 24pt;
+              background-color: rgba(0, 0, 0, .6);
+            }
           }
         }
 
         time {
             font-size: 12pt;
-        }
-
-        &.comingsoon {
-
-          position: relative;
-          &::after {
-            content: '近期活動...';
-            display: block;
-            position: absolute;
-            bottom: 80px;
-            right: 5%;
-            left: 0;
-            font-size: 12pt;
-            color: #cecece;
-            height: auto;
-            width: 95%;
-            line-height: 20pt;
-            text-align: right;
-            text-shadow:  1px  1px 0 #333,
-                         -1px -1px 0 #333,
-                          1px -1px 0 #333,
-                         -1px  1px 0 #333;
-          }
         }
     }
 }
