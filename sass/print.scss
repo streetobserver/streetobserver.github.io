@@ -29,6 +29,28 @@ $mobile_logo_speed: .4s;
   }
 }
 
+.block-bottom {
+  font-size: 0;
+  &::before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+    // width: 2px;
+    // background-color: red;
+  }
+  > a, span {
+    font-size: 1rem;
+    vertical-align: bottom;
+    display: inline-block;
+    padding-left: 0.5rem;
+    color: black;
+    &:hover, &:active, &:focus, &:visited {
+      color: black;
+    }
+  }
+}
+
 .font-fangsong {
   font-family: "cwTeXFangSong",serif !important;
   font-size: 14pt;
@@ -88,75 +110,15 @@ body {
 
   footer {
     background-color: rgba(153, 153, 153, 1);
+    .invert {
+      filter: invert(1);
+    }
 
-    .footer {
-      padding: 2.5rem 0;
-      display: flex;
-      align-items: flex-start;
-      flex-direction: column;
-      @media (min-width: 576px) {
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-      }
-
-      > div {
-        color: #fff;
-        font-size: 0.5rem;
-
-        img {
-          width: 170px;
-          height: 100%;
-        }
-
-        h6 {
-          padding: 0;
-        }
-
-        a {
-          color: #fff;
-
-          &:active,
-          &:focus,
-          &:hover,
-          &:visited {
-            color: #fff;
-          }
-        }
-
-        i {
-          font-size: 2rem;
-
-          &+span {
-            margin-left: 7px;
-            margin-right: 5px;
-          }
-        }
-
-        &+div {
-          margin-left: 11px;
-          margin-top: 1rem;
-        }
-        display: block;
-        @media (min-width: 576px) {
-          display: inline-block;
-          position: relative;
-
-          &+div {
-            margin-left: 4rem;
-            margin-top: 0;
-          }
-
-          &+div::before {
-            content: '';
-            position: absolute;
-            top: -18px;
-            left: -1rem;
-            border-left: 1px solid #fff;
-            height: 95px;
-          }
-        }
-      }
+    .email {
+      font-size: 9px;
+    }
+    .footer_logo {
+      max-width: 300px;
     }
   }
 }
