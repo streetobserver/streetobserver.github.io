@@ -12,6 +12,23 @@ $mobile_logo_speed: .4s;
 //   image-rendering: pixelated!important;
 // }
 
+.block-middle {
+  font-size: 0;
+  &::before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+    // width: 2px;
+    // background-color: red;
+  }
+  > div {
+    font-size: 1rem;
+    vertical-align: middle;
+    display: inline-block;
+  }
+}
+
 .font-fangsong {
   font-family: "cwTeXFangSong",serif !important;
   font-size: 14pt;
