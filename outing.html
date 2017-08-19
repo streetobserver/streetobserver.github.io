@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="./stylesheets/ie.css" />
     <!-- <link rel="stylesheet" href="./stylesheets/screen.css" /> -->
     <link rel="stylesheet" href="./stylesheets/bootstrap.css" />
-    <link rel="stylesheet" href="./stylesheets/fishingMarket.css" />
+    <link rel="stylesheet" href="./stylesheets/outing.css" />
   </head>
   <body>
     <!-- <h1 class="hidden">台南路上觀察 運河日記: 魚市場觀察</h1> -->
@@ -133,12 +133,12 @@
       </div>
       <div class="container">
         <div class="row py-5 text-center">
-          <div class="col-12 col-sm-12 col-md-6">
+          <div class="col-12 col-sm-12 col-md-6 zoomIn">
             <img src="./images/outing/ShenNon.jpg" alt="" class="d-block img-fluid">
             <div>神農街的觀光紀錄</div>
             <div>觀光界線明顯，觀光道具(機台)密集，人潮亦密集，且觀光路線單純</div>
           </div>
-          <div class="col-12 col-sm-12 col-md-6">
+          <div class="col-12 col-sm-12 col-md-6 zoomIn">
             <img src="./images/outing/ZhengShin.jpg" alt="" class="d-block img-fluid">
             <div> 正興街的觀光紀錄</div>
             <div>區域較大，居民生活場域與觀光場域重疊，在分界處時會有出人意表的現象。</div>
@@ -192,5 +192,17 @@
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/fixMenu.js"></script>
     <script async defer src="//assets.pinterest.com/js/pinit.js"></script>
+    <script type="text/javascript">
+      $('.zoomIn').on('click', function (e) {
+        $('.zoomIn').each(function () {
+          $(this).removeClass('col-md-11').removeClass('col-md-6').addClass('col-md-1').css('font-size', '9pt');
+        })
+        $(this).removeClass('col-md-1').addClass('col-md-11').css('font-size', '1rem');
+        e.stopPropagation()
+      })
+      $(document).on('click', function () {
+        $('.zoomIn').addClass('col-md-6').removeClass('col-md-1').removeClass('col-md-11').css('font-size', '1rem');
+      })
+    </script>
   </body>
 </html>
