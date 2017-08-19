@@ -1,0 +1,21 @@
+@import "colors";
+
+
+.line {
+  > .row:nth-child(n+2) {
+    position: relative;
+    &::before {
+      content: '';
+      position: absolute;
+      display: block;
+      bottom: 100%;
+      left: 0;
+      right: 0;
+      margin: auto;
+      width: 64%;
+      height: 1px;
+      background-color: #888;
+    }
+
+  }
+}
