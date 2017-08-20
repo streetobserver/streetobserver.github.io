@@ -40,6 +40,10 @@ h1, h2 {
 }
 
 .member {
+  h2 {
+    letter-spacing: 1em;
+    text-indent: 1rem;
+  }
   p {
     word-wrap:break-word;
   }
