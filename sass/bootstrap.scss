@@ -42,29 +42,22 @@ $menu_speed: 0.2s;
       transition: all $menu_speed;
 
       &.active {
-        color: #fff;
+        color: #000;
         text-decoration: none;
         background: none;
         font-weight: 500;
-        text-shadow: -1px -1px 0 #333,
-                      1px  1px 0 #333,
-                     -1px  1px 0 #333,
-                      1px -1px 0 #333,
-                      1px  0px 0 #333,
-                      0px -1px 0 #333,
-                     -1px  0px 0 #333,
-                      0px  1px 0 #333;
-        &:hover {
-          color: #aad4f9;
-        }
+
+        // &:hover {
+        //   color: #aad4f9;
+        // }
       }
 
       &:focus,
       &:hover {
-        color: #333;
+        color: #828283;
         text-decoration: none;
-        font-weight: 700;
-        // background-color: hsla(208, 98%, 29%, 1);
+        font-weight: 500;
+        background-color: transparent;
       }
     }
   }
