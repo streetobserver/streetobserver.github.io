@@ -15,18 +15,20 @@
     <meta property="og:url" content="tainanobserver.lionfree.net">
     <meta property="og:image" content="./images/logo-2line.png">
     <meta property="og:description" content="「台南路上觀察團」於2015年4月在台南成立，開始讀書會與觀察活動。2016年9月開始「城市觀察計畫」，以府城為場域，由觀察團向外延伸，以自身的解讀，去理解、定義城市，與之建立關係。">
-    <title>即時路上觀察 - 台南路上觀察團</title>
+    <title>頁面找不到 - 台南路上觀察團</title>
     <link async rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700" rel="stylesheet">
 
     <link rel="stylesheet" href="./stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" href="./flexslider/flexslider.css">
     <link rel="stylesheet" href="./stylesheets/print.css" />
     <link rel="stylesheet" href="./stylesheets/ie.css" />
     <!-- <link rel="stylesheet" href="./stylesheets/screen.css" /> -->
     <link rel="stylesheet" href="./stylesheets/bootstrap.css" />
+    <link rel="stylesheet" href="./stylesheets/outing.css" />
   </head>
   <body>
-    <!-- <h1 class="hidden">台南路上觀察 即時路上觀察</h1> -->
+    <!-- <h1 class="hidden">台南路上觀察 運河日記: 魚市場觀察</h1> -->
     <header id="header">
       <div class="container-fluid">
         <a href="./index.html" class="d-block text-center"><img class="pt-5 hidden-md-down" src="./images/logo-2line.png" alt="台南路上觀察團logo"></a>
@@ -43,7 +45,7 @@
                 <a class="nav-link" href="./aboutUs.html">關於我們</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link" href="##" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link active" href="##" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   觀察計畫
                 </a>
                 <div class="cover">
@@ -58,7 +60,7 @@
                     <div class="dropdown-divider"></div> -->
                     <a class="dropdown-item" href="./fishingMarket.html">運河日記: 魚市場觀察</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="./outing.html">觀光凝視: 正興×神農</a>
+                    <a class="dropdown-item active" href="./outing.html">觀光凝視: 正興×神農</a>
                   </div>
                 </div>
               </li>
@@ -77,20 +79,10 @@
         <div id="fix_menu_spacer"></div>
       </div>
     </header>
-    <article class="">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 col-sm-12 col-md-6">
-            <a data-pin-do="embedBoard" data-pin-scale-width="80" href="https://www.pinterest.com/murongchiu/%E5%8F%B0%E5%8D%97%E8%B7%AF%E4%B8%8A%E8%A7%80%E5%AF%9F-tainan-observion"></a>
-          </div>
-          <div class="col-12 col-sm-12 col-md-6">
-            <a data-pin-do="embedBoard" data-pin-scale-width="80" href="https://www.pinterest.com/shengkaiwang/%E8%B7%AF%E4%B8%8A%E8%A7%80%E5%AF%9F-%E4%BA%BA%E5%AD%94%E8%93%8B"></a>
-          </div>
-          <div class="col-12 col-sm-12 col-md-6">
-            <a data-pin-do="embedUser" data-pin-scale-width="80" href="https://www.pinterest.com/tainanobserver/%25E5%258F%25B0%25E5%258D%2597%25E5%259F%258E%25E7%2589%2586%25E6%259D%25BE/"></a>
-          </div>
-        </div>
-      </div>
+    <article id="article">
+      你要找的頁面，找不到!!!
+      點擊上方的logo可以回到首頁!!
+      頁面內容測試中...
     </article>
     <footer id="footer" class="container-fluid p-3">
       <div class="row">
@@ -112,9 +104,23 @@
     </footer>
     <script src="./js/jquery-3.2.1.js" type="text/javascript"></script>
     <script src="./js/chrisSignature.js" charset="utf-8"></script>
+    <script src="./flexslider/jquery.flexslider.js" type="text/javascript"></script>
+    <script src="./js/flexslideStart.js" type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/fixMenu.js"></script>
-    <script async defer src="https://assets.pinterest.com/js/pinit.js"></script>
+    <script async defer src="//assets.pinterest.com/js/pinit.js"></script>
+    <script type="text/javascript">
+      $('.zoomIn').on('click', function (e) {
+        $('.zoomIn').each(function () {
+          $(this).removeClass('col-md-11').removeClass('col-md-6').addClass('col-md-1').css('font-size', '9pt');
+        })
+        $(this).removeClass('col-md-1').addClass('col-md-11').css('font-size', '1rem');
+        e.stopPropagation()
+      })
+      $(document).on('click', function () {
+        $('.zoomIn').addClass('col-md-6').removeClass('col-md-1').removeClass('col-md-11').css('font-size', '1rem');
+      })
+    </script>
   </body>
 </html>
