@@ -109,6 +109,8 @@ body {
   }
 
   footer {
+    font-size: 9px;
+    color: white;
     background-color: rgba(153, 153, 153, 1);
     .invert {
       filter: invert(1);
@@ -119,7 +121,6 @@ body {
     }
 
     .footer_logo {
-
       max-width: 180px;
     }
   }
