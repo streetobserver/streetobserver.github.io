@@ -1,5 +1,5 @@
-  var defaultStyle = 'background-color: white; color: black;font-size: 16pt;'
-  var invDfStyle = 'background-color: black; color: white;font-size: 16pt;'
+  var defaultStyle = 'background-color: white; color: black;font-size: 9pt;'
+  var invDfStyle = 'background-color: black; color: white;font-size: 9pt;'
 
   var chris =
   ["      %cstreetobserver.org web layout",
