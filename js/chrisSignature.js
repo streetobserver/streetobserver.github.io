@@ -2,7 +2,7 @@
   var invDfStyle = 'background-color: black; color: white;font-size: 9pt;'
 
   var chris =
-  ["      %cstreetobserver.org develope by",
+  ["      %cstreetobserver.org Developed by",
     "%c◢█▇▅  chris   %c▅▆▅▃▂ %c ▃▄▅ dwatow.github.io",
    "%c▋%c▊     %c▊  %c▎%c▏  %c▋%c▋%c▆▇▋%c▎  %c▎%c▊  %c◢▆▅▄",
    "%c▊%c▌     %c▋  %c▌%c▎  %c▊%c▌  %c▍%c▏  %c▍%c▋  %c▍%c     ",
