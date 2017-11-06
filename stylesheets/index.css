@@ -1,1 +1,90 @@
-﻿.gray_background{background-color:#f4f4f4;background-image:none}.green_background{background-color:#248d6c;background-image:none}.green_font{color:#248d6c}.blue_font{color:#24678d}.white_font{color:#fff}#article{background-color:#fff}.observed_works{max-width:820px;font-size:0;text-align:center;margin:auto}.observed_works .item{display:inline-block;width:100%}.observed_works .item:nth-child(n+2){margin-top:20px}@media (min-width: 576px){.observed_works .item{width:calc((100% - 20px * 2)/3)}.observed_works .item:nth-child(3n+2),.observed_works .item:nth-child(3n+3){margin-left:20px}.observed_works .item:nth-child(n+4){margin-top:20px}}.observed_works .item img{width:100%;margin:15px 0}.observed_works .item h2{font-size:12pt;font-weight:700}.observed_works .item a{display:block;transition:transform .3s ease-out}.observed_works .item a:first-child:hover{transform:scale(1.05)}.observed_works .item a:hover h2,.observed_works .item a:active h2,.observed_works .item a:visited h2{color:#000 !important}.observed_works .item a.comingsoon{position:relative}.observed_works .item a.comingsoon::before{content:'近期活動';position:absolute;bottom:0;right:0;left:0;display:block;width:100%;height:auto;color:#fff;font-size:12pt;text-align:center;line-height:24pt;background-color:rgba(0,0,0,0.6)}.observed_works .item time{font-size:12pt}
+@charset "UTF-8";
+.gray_background {
+  background-color: #f4f4f4;
+  background-image: none;
+}
+
+.green_background {
+  background-color: #248d6c;
+  background-image: none;
+}
+
+.green_font {
+  color: #248d6c;
+}
+
+.blue_font {
+  color: #24678d;
+}
+
+.white_font {
+  color: #fff;
+}
+
+#article {
+  background-color: #fff;
+}
+
+.observed_works {
+  max-width: 820px;
+  font-size: 0;
+  text-align: center;
+  margin: auto;
+}
+.observed_works .item {
+  display: inline-block;
+  width: 100%;
+}
+.observed_works .item:nth-child(n+2) {
+  margin-top: 20px;
+}
+@media (min-width: 576px) {
+  .observed_works .item {
+    width: calc((100% - 20px * 2)/3);
+  }
+  .observed_works .item:nth-child(3n+2), .observed_works .item:nth-child(3n+3) {
+    margin-left: 20px;
+  }
+  .observed_works .item:nth-child(n+4) {
+    margin-top: 20px;
+  }
+}
+.observed_works .item img {
+  width: 100%;
+  margin: 15px 0;
+}
+.observed_works .item h2 {
+  font-size: 12pt;
+  font-weight: 700;
+}
+.observed_works .item a {
+  display: block;
+  transition: transform .3s ease-out;
+}
+.observed_works .item a:first-child:hover {
+  transform: scale(1.05);
+}
+.observed_works .item a:hover h2, .observed_works .item a:active h2, .observed_works .item a:visited h2 {
+  color: #000 !important;
+}
+.observed_works .item a.comingsoon {
+  position: relative;
+}
+.observed_works .item a.comingsoon::before {
+  content: '近期活動';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: auto;
+  color: #fff;
+  font-size: 12pt;
+  text-align: center;
+  line-height: 24pt;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.observed_works .item time {
+  font-size: 12pt;
+}

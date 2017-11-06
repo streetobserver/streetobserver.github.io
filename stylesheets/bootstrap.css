@@ -1,1 +1,73 @@
-.navbar-nav{padding:15px 0}.navbar-nav .nav-item{margin:auto 0;padding:0 20px;transition:all .2s}.navbar-nav .nav-item:hover{font-weight:700;color:#000}.cover{overflow:hidden;width:210.02px;height:0;transition:height .2s}@media (min-width: 991px){.cover{position:absolute;overflow:hidden;width:210.02px;height:0}}.cover>.dropdown-menu{display:block;border:none}.cover>.dropdown-menu>.dropdown-divider{opacity:0}.cover>.dropdown-menu>.dropdown-item{transition:all .2s}.cover>.dropdown-menu>.dropdown-item.active{color:#000;text-decoration:none;background:none;font-weight:500}.cover>.dropdown-menu>.dropdown-item:focus,.cover>.dropdown-menu>.dropdown-item:hover{color:#828283;text-decoration:none;font-weight:500;background-color:transparent}.show>.cover{height:238px;overflow:hidden}.show>.cover>.dropdown-menu{background-color:#FAFAFA}@media (min-width: 991px){.show>.cover{position:absolute;height:238px}.show>.cover>.dropdown-menu{top:0;background-color:#fff}}.card{padding-top:1rem;padding-bottom:1rem;box-shadow:0px 0px 50px #888888}
+.navbar-nav {
+  padding: 15px 0;
+}
+.navbar-nav .nav-item {
+  margin: auto 0;
+  padding: 0 20px;
+  transition: all 0.2s;
+}
+.navbar-nav .nav-item:hover {
+  font-weight: 700;
+  color: #000;
+}
+
+.cover {
+  overflow: hidden;
+  width: 210.02px;
+  height: 0;
+  transition: height 0.2s;
+}
+@media (min-width: 991px) {
+  .cover {
+    position: absolute;
+    overflow: hidden;
+    width: 210.02px;
+    height: 0;
+  }
+}
+.cover > .dropdown-menu {
+  display: block;
+  border: none;
+}
+.cover > .dropdown-menu > .dropdown-divider {
+  opacity: 0;
+}
+.cover > .dropdown-menu > .dropdown-item {
+  transition: all 0.2s;
+}
+.cover > .dropdown-menu > .dropdown-item.active {
+  color: #000;
+  text-decoration: none;
+  background: none;
+  font-weight: 500;
+}
+.cover > .dropdown-menu > .dropdown-item:focus, .cover > .dropdown-menu > .dropdown-item:hover {
+  color: #828283;
+  text-decoration: none;
+  font-weight: 500;
+  background-color: transparent;
+}
+
+.show > .cover {
+  height: 238px;
+  overflow: hidden;
+}
+.show > .cover > .dropdown-menu {
+  background-color: #FAFAFA;
+}
+@media (min-width: 991px) {
+  .show > .cover {
+    position: absolute;
+    height: 238px;
+  }
+  .show > .cover > .dropdown-menu {
+    top: 0;
+    background-color: #fff;
+  }
+}
+
+.card {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  box-shadow: 0px 0px 50px #888888;
+}

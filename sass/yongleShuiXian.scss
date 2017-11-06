@@ -65,9 +65,11 @@
 
 .w753 {
   width: 100%;
-  @media (min-width: 768px) {
-    margin-left: 27%;
+  margin-left: 0%;
+
+  @media (min-width: 768px) and (max-width: 1339px) {
     width: 59%;
+    margin-left: 27%;
   }
 
   @media (min-width: 1440px) {
