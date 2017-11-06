@@ -1,5 +1,7 @@
 .line {
     position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
     &::before {
       content: '';
       position: absolute;
@@ -8,9 +10,9 @@
       left: 0;
       right: 0;
       margin: auto;
-      width: 64%;
+      width: calc(100% - 30px);
       height: 1px;
-      background-color: #888;
+      background-color: #e2e2e2;
     }
 }
 
