@@ -66,7 +66,10 @@
 }
 
 .white_font_color {
-  color: white;
+  color: black;
+  @media (min-width: 576px) {
+    color: white;
+  }
 }
 
 .black_font_color {
