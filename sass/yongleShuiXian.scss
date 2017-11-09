@@ -1,24 +1,26 @@
 .line {
-    position: relative;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    &::before {
-      content: '';
-      position: absolute;
-      display: block;
-      bottom: 100%;
-      left: 0;
-      right: 0;
-      margin: auto;
-      width: calc(100% - 30px);
-      height: 1px;
-      background-color: #e2e2e2;
-    }
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  &::before {
+    content: '';
+    position: absolute;
+    display: block;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: calc(100% - 30px);
+    height: 1px;
+    background-color: #e2e2e2;
+  }
 }
 
 .nameofworks {
   font-size: 9pt;
   padding-left: 2em;
+
   &+& {
     padding-left: 1em;
   }
@@ -63,18 +65,20 @@
   }
 }
 
+.white_font_color {
+  color: white;
+}
+
 .w753 {
   width: 100%;
-  margin-left: 0%;
-
-  @media (min-width: 768px) and (max-width: 1339px) {
+  margin-left: 0;
+  @media (min-width: 768px) and (max-width: 1179px) {
     width: 59%;
     margin-left: 27%;
   }
-
-  @media (min-width: 1440px) {
+  @media (min-width: 1280px) {
     width: 79%;
-    margin-left: 0%;
+    margin-left: 0;
   }
 }
 
@@ -87,7 +91,6 @@
     width: 300px;
   }
 }
-
 
 .in-img-right-bottom {
   font-size: 0.8rem;
@@ -102,9 +105,11 @@
 h2 {
   @media (min-width: 576px) {
     position: relative;
+
     .vertical-rl {
       display: block;
       writing-mode: vertical-rl;
+
       & + .nameofworks {
         position: absolute;
         display: block;
