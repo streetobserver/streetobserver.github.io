@@ -1,4 +1,5 @@
 @import "colors";
+@import "global_style";
 
 #article {
     background-color: #fff;
@@ -45,15 +46,8 @@
             transform: scale(1.05);// rotate(3deg);
           }
 
-          color: #000!important;
-          &:hover,
-          &:active,
-          &:visited {
+          h2 {
             color: #000!important;
-
-              h2 {
-                  color: #000!important;
-              }
           }
           &.comingsoon {
             position: relative;

@@ -1,8 +1,9 @@
 /* Welcome to Compass. Use this file to define print styles.
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
- @import url(//fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
+@import url(//fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
 @import "flexslider";
+@import "global_style";
 
 $mobile_logo_width: 247.5px;
 $normal_speed: .3s;
@@ -157,17 +158,6 @@ body {
   display: none;
   visibility: hidden;
   opacity: 0;
-}
-
-a {
-  text-decoration: none;
-
-  &:active,
-  &:focus,
-  &:hover,
-  &:visited {
-    text-decoration: none;
-  }
 }
 
 .indent2letter {
