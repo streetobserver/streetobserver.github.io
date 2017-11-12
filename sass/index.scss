@@ -7,12 +7,12 @@
 .observed_works {
     max-width: 820px;
     font-size: 0;
-    text-align: center;
     margin: auto;
 
     .item {
         $spacer: 20px;
         display: inline-block;
+        text-align: center;
 
         width: 100%;
         &:nth-child(n+2) {
@@ -45,9 +45,12 @@
             transform: scale(1.05);// rotate(3deg);
           }
 
+          color: #000!important;
           &:hover,
           &:active,
           &:visited {
+            color: #000!important;
+
               h2 {
                   color: #000!important;
               }
