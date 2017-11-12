@@ -19,6 +19,7 @@ $menu_speed: 0.2s;
   }
 }
 
+
 .cover {
   overflow: hidden;
   width: 210.02px;
@@ -63,9 +64,11 @@ $menu_speed: 0.2s;
   }
 }
 
+$menu_height: (30px + 17px) * 6;
+
 .show {
   > .cover {
-    height: 238px;
+    height: $menu_height;
     overflow: hidden;
     > .dropdown-menu {
       background-color: #FAFAFA;
@@ -73,7 +76,7 @@ $menu_speed: 0.2s;
 
     @media (min-width: 991px) {
       position: absolute;
-      height: 238px;
+      height: $menu_height;
       > .dropdown-menu {
         top: 0;
         background-color: #fff;
