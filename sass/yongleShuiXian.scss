@@ -110,7 +110,9 @@
 }
 
 .w43 {
-  width: 43.8281px;
+  @media (min-width: 576px) {
+    width: 43.8281px;
+  }
 }
 
 h2 {
