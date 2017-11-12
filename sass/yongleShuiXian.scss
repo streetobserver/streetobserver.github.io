@@ -109,10 +109,13 @@
   }
 }
 
+.w43 {
+  width: 43.8281px;
+}
+
 h2 {
   @media (min-width: 576px) {
     position: relative;
-    width: 43.8281px;
 
     .vertical-rl {
       display: block;
