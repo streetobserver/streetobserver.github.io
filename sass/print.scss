@@ -2,11 +2,11 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
 @import url(//fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
-@import "flexslider";
-@import "global_style";
 
 $mobile_logo_width: 247.5px;
+@import "flexslider";
 $normal_speed: .3s;
+@import "global_style";
 $mobile_logo_speed: .4s;
 
 // img {
