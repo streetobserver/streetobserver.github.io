@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/streetobserver/streetobserver.github.io#readme",
   "dependencies": {
-    "node-sass": "^4.12.0"
+    "node-sass": "^4.13.1"
   }
 }
